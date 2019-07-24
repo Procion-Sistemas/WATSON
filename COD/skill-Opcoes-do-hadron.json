@@ -1,0 +1,2311 @@
+{
+  "name": "Opcoes do hadron",
+  "intents": [
+    {
+      "intent": "reiniciar",
+      "examples": [
+        {
+          "text": "desconecte e conecte"
+        },
+        {
+          "text": "desligue e ligue novamente"
+        },
+        {
+          "text": "desplugue e plugue novamente"
+        },
+        {
+          "text": "desconecte e conecte novamente"
+        },
+        {
+          "text": "feche e abra"
+        },
+        {
+          "text": "reinicie"
+        }
+      ],
+      "description": "frases que usamos para desconectar algum dispositivo"
+    },
+    {
+      "intent": "concluido",
+      "examples": [
+        {
+          "text": "foi"
+        },
+        {
+          "text": "ah deu certo"
+        },
+        {
+          "text": "deu certo"
+        },
+        {
+          "text": "agora deu"
+        },
+        {
+          "text": "ta funcionando"
+        }
+      ],
+      "description": "caso o bot tenha dado uma solução"
+    },
+    {
+      "intent": "sem_certeza",
+      "examples": [
+        {
+          "text": "Me perdoe, mas não tenho uma resposta."
+        },
+        {
+          "text": "Me desculpe, mas não tenho uma resposta para sua pergunta."
+        },
+        {
+          "text": "Eu não tenho idéia, na verdade."
+        },
+        {
+          "text": "Não tenho a menor idéia."
+        },
+        {
+          "text": "Não tenho certeza se entendo o que você está dizendo."
+        },
+        {
+          "text": "Não tenho idéia."
+        },
+        {
+          "text": "Não tenho uma solução para isso."
+        },
+        {
+          "text": "Para se honesto, eu não tenho certeza."
+        },
+        {
+          "text": "Você me pegou."
+        },
+        {
+          "text": "Eu não tenho idéia do que você está procurando."
+        },
+        {
+          "text": "Eu não sei o que você deseja."
+        },
+        {
+          "text": "Eu não sei o que te deixará feliz."
+        },
+        {
+          "text": "Eu não sei do que você precisa."
+        },
+        {
+          "text": "Eu ainda não estou convencido."
+        },
+        {
+          "text": "Desculpe por não conseguir te ajudar."
+        },
+        {
+          "text": "Desculpe não poder te ajudar com isso."
+        },
+        {
+          "text": "O que você não me contaria?"
+        },
+        {
+          "text": "Não sei se entendi o que você deseja."
+        },
+        {
+          "text": "Não sei a resposta para isso, me perdoe."
+        },
+        {
+          "text": "Não posso te ajudar, desculpe."
+        },
+        {
+          "text": "Não faço idéia."
+        }
+      ],
+      "description": "Indique não haver uma resposta definitiva a uma pergunta."
+    },
+    {
+      "intent": "qual_cfop",
+      "examples": [
+        {
+          "text": "que cfop eu uso para devolução?"
+        },
+        {
+          "text": "qual cfop para venda?"
+        },
+        {
+          "text": "qual cfop para venda de mercadoria?"
+        },
+        {
+          "text": "que cfop eu uso para remessa?"
+        }
+      ],
+      "description": "duvida sobre qual cfop usar"
+    },
+    {
+      "intent": "falar_com_alguem",
+      "examples": [
+        {
+          "text": "Pode me provar que é um representante?"
+        },
+        {
+          "text": "Você pode me conectar com uma pessoa real?"
+        },
+        {
+          "text": "Quero falar com alguém de outra área."
+        },
+        {
+          "text": "Eu quero tentar o seu agente virtual."
+        },
+        {
+          "text": "Você pode por favor me transferir para alguém que possa me ajudar, eu mandei um e-mail para você e você não leu direito e simplesmente saiu."
+        },
+        {
+          "text": "Você pode me enviar um número de telefone para falar com um representante de vendas?"
+        },
+        {
+          "text": "Preciso contatar a um atendente"
+        },
+        {
+          "text": "Posso ter informações de contato para falar com um agente ao vivo."
+        },
+        {
+          "text": "Posso falar com um agente sobre minha conta"
+        },
+        {
+          "text": "Por favor, você pode entrar em contato comigo com um agente humano?"
+        },
+        {
+          "text": "Por favor pode me conectar com a Vaishali K? Minha conversação foi desconectada"
+        },
+        {
+          "text": "Por favor me conectar a um agente humano que é fluente em inglês."
+        },
+        {
+          "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
+        },
+        {
+          "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
+        },
+        {
+          "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
+        },
+        {
+          "text": "Existe alguém com quem eu posso realmente falar de verdade?"
+        },
+        {
+          "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
+        },
+        {
+          "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
+        },
+        {
+          "text": "Eu preciso falar com um representante. Como posso fazer isso?"
+        },
+        {
+          "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
+        }
+      ],
+      "description": "Solicite um agente humano."
+    },
+    {
+      "intent": "opcoes",
+      "examples": [
+        {
+          "text": "como altero um representante ?"
+        },
+        {
+          "text": "como listo as vendas mensais?"
+        },
+        {
+          "text": "como gero um relatório de vendas?"
+        },
+        {
+          "text": "qual opção faço um elaborado?"
+        },
+        {
+          "text": "como acesso a opção de importação?"
+        },
+        {
+          "text": "como faço para mover o negativo do estoque para o proximo mês?"
+        },
+        {
+          "text": "que opção tem listagem de pedidos?"
+        },
+        {
+          "text": "como faço para saber quanto eu vendi no mes?"
+        },
+        {
+          "text": "qual é a opção para cadastro de pedidos"
+        },
+        {
+          "text": "em que opção tem cadastro de pedidos?"
+        },
+        {
+          "text": "em que opção faço um orçamento?"
+        },
+        {
+          "text": "em qual opção tenho acesso aos operadores?"
+        },
+        {
+          "text": "em que opção movimento o estoque negativo pro mês posterior?"
+        },
+        {
+          "text": "qual opção uso para movimentação de estoque?"
+        },
+        {
+          "text": "em que opção cadastro cliente?"
+        },
+        {
+          "text": "como faço um cadastro de pedidos?"
+        },
+        {
+          "text": "como gero um pedido?"
+        },
+        {
+          "text": "como faço um cadastro de serviço?"
+        },
+        {
+          "text": "que opção uso para gerar um relatorio?"
+        },
+        {
+          "text": "em que opção crio um representante"
+        },
+        {
+          "text": "em qual opção crio um operador"
+        }
+      ],
+      "description": "mapeamento das opções do hadron"
+    },
+    {
+      "intent": "voltar_atras",
+      "examples": [
+        {
+          "text": "Podemos fazê-lo novamente?"
+        },
+        {
+          "text": "Deixe para lá."
+        },
+        {
+          "text": "Desconsidere meu último pedido."
+        },
+        {
+          "text": "Espere! Eu acho que quero fazer diferente."
+        },
+        {
+          "text": "Espere! Vamos voltar alguns passos atrás e recomeçar."
+        },
+        {
+          "text": "Esqueça isso, vamos tentar outra coisa."
+        },
+        {
+          "text": "Eu mudei de idéia."
+        },
+        {
+          "text": "Eu não queria fazer isso, na verdade, vamos voltar."
+        },
+        {
+          "text": "Eu percebi que não era isso o que eu queria."
+        },
+        {
+          "text": "Na verdade, retiro o que disse."
+        },
+        {
+          "text": "Vamos continuar do ponto anterior."
+        },
+        {
+          "text": "Vamos fazê-lo novamente!"
+        },
+        {
+          "text": "Vamos para o próximo passo."
+        },
+        {
+          "text": "Vamos voltar para o que eu disse originalmente."
+        },
+        {
+          "text": "Vamos voltar para o que eu pedi originalmente."
+        }
+      ],
+      "description": "Peça ao robô para voltar um passo atrás."
+    },
+    {
+      "intent": "saudaçoes",
+      "examples": [
+        {
+          "text": "eae como vai?"
+        },
+        {
+          "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
+        },
+        {
+          "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
+        },
+        {
+          "text": "Olá, pode me ajudar?"
+        },
+        {
+          "text": "Como estão as coisas aí?"
+        },
+        {
+          "text": "Ei, você está aí?"
+        },
+        {
+          "text": "oi tudo bom?"
+        },
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "Bom dia, como você está?"
+        },
+        {
+          "text": "Eu gostaria de conversar com o Watson."
+        },
+        {
+          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+        },
+        {
+          "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
+        }
+      ],
+      "description": "Cumprimente o robô."
+    },
+    {
+      "intent": "Instalar_certificado",
+      "examples": [
+        {
+          "text": "certificado novo"
+        },
+        {
+          "text": "como instalar um certificado"
+        },
+        {
+          "text": "como instalo certificado"
+        },
+        {
+          "text": "quero instalar um certificado"
+        },
+        {
+          "text": "o certificado nao esta instalado"
+        }
+      ],
+      "description": "cliente com certificado desinstalado"
+    },
+    {
+      "intent": "pessoal",
+      "examples": [
+        {
+          "text": "Como você se descreve?"
+        },
+        {
+          "text": "Me diga três coisas sobre você."
+        },
+        {
+          "text": "Você sabe quem você é?"
+        },
+        {
+          "text": "Você fala Francês?"
+        },
+        {
+          "text": "Quero o documento de requisitos do sistema para esse agente."
+        },
+        {
+          "text": "Quero entender como você trabalha."
+        },
+        {
+          "text": "Quero configurar saudações aqui."
+        },
+        {
+          "text": "Qual a sua idade?"
+        },
+        {
+          "text": "Quais são os seus apelidos?"
+        },
+        {
+          "text": "Há quanto tempo você tem desempenhado essa função?"
+        },
+        {
+          "text": "Eu preciso da informação sobre o preço do Watson."
+        },
+        {
+          "text": "Estou procurando uma solução para melhorar o meu engajamento com o cliente usando este agente virtual."
+        },
+        {
+          "text": "Este agente foi construído usando processamento de linguagem natural?"
+        },
+        {
+          "text": "Você tem um nome?"
+        }
+      ],
+      "description": "Solicite atributos pessoais genéricos."
+    },
+    {
+      "intent": "quem_e",
+      "examples": [
+        {
+          "text": "Você é um homem ou uma mulher?"
+        },
+        {
+          "text": "Você é uma pessoa real ou um robô?"
+        },
+        {
+          "text": "Como eu posso conversar com o Watson?"
+        },
+        {
+          "text": "Como você pode provar que é humano?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Diga-me, você é humano ou não?"
+        },
+        {
+          "text": "Estou conversando com uma pessoa ou com uma IA?"
+        },
+        {
+          "text": "Estou conversando com um humano?"
+        },
+        {
+          "text": "Estou conversando com um robô?"
+        },
+        {
+          "text": "Eu estou conversando com o Watson?"
+        },
+        {
+          "text": "Isso é um computador?"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "Quem é você, realmente?"
+        },
+        {
+          "text": "Você é humano?"
+        },
+        {
+          "text": "Você pode ser honesto comigo?"
+        },
+        {
+          "text": "Você é real?"
+        },
+        {
+          "text": "Você é real, pelo menos?"
+        },
+        {
+          "text": "Você é um humano ou um robô?"
+        }
+      ],
+      "description": "Pergunte se está falando com um humano ou um robô."
+    },
+    {
+      "intent": "fim_de_papo",
+      "examples": [
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Tudo bem, eu tenho tudo o que eu precisava"
+        },
+        {
+          "text": "Volto mais tarde."
+        },
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        },
+        {
+          "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+        },
+        {
+          "text": "Vou sair agora. Tchau"
+        }
+      ],
+      "description": "Termine a conversa."
+    },
+    {
+      "intent": "bravo",
+      "examples": [
+        {
+          "text": "Uma experiência horrível, com certeza!"
+        },
+        {
+          "text": "Todo mundo te odeia."
+        },
+        {
+          "text": "Tchau, vagabunda."
+        },
+        {
+          "text": "Você está me entediando."
+        },
+        {
+          "text": "Você é uma piada?"
+        },
+        {
+          "text": "Por que você é retardado?"
+        },
+        {
+          "text": "Porra, como posso falar com uma pessoa real?"
+        },
+        {
+          "text": "Seja bom uma vez na vida."
+        },
+        {
+          "text": "Sua mãe."
+        },
+        {
+          "text": "merda"
+        },
+        {
+          "text": "odiei o atendimento"
+        },
+        {
+          "text": "Você é chato?"
+        },
+        {
+          "text": "Vá se foder!"
+        },
+        {
+          "text": "Vá para o inferno!"
+        },
+        {
+          "text": "Vá para a puta que pariu!"
+        },
+        {
+          "text": "Você é ruim mesmo?"
+        },
+        {
+          "text": "Você não vale nada."
+        },
+        {
+          "text": "Você está fora de si?"
+        },
+        {
+          "text": "Você é espertinho?"
+        },
+        {
+          "text": "Você é burro."
+        }
+      ],
+      "description": "Expresse feedback desfavorável."
+    },
+    {
+      "intent": "errado",
+      "examples": [
+        {
+          "text": "Você não compreendeu o que perguntei."
+        },
+        {
+          "text": "Isso não estava correto. Esqueçamos."
+        },
+        {
+          "text": "Isso não é o que quero dizer."
+        },
+        {
+          "text": "Você está me entendendo mal."
+        },
+        {
+          "text": "O que você me deu não foi exatamente o que pedi."
+        },
+        {
+          "text": "Não estou entendendo."
+        },
+        {
+          "text": "Você não entendeu o que eu pedi."
+        },
+        {
+          "text": "Você não faz idéia."
+        },
+        {
+          "text": "Não é isso."
+        },
+        {
+          "text": "Isso estava errado, tente novamente."
+        },
+        {
+          "text": "Eu não quis dizer isso."
+        },
+        {
+          "text": "Eu não quero isso."
+        },
+        {
+          "text": "Eu não preciso disso."
+        },
+        {
+          "text": "Eu não falei sobre isso."
+        },
+        {
+          "text": "Eu não entendo o que você está dizendo."
+        },
+        {
+          "text": "Eu não disse isso."
+        },
+        {
+          "text": "Eu não acho que essa seja a resposta."
+        },
+        {
+          "text": "Essa parece ser a resposta errada."
+        },
+        {
+          "text": "Essa não foi a minha intenção."
+        },
+        {
+          "text": "A resposta está incorreta."
+        },
+        {
+          "text": "O que você me deu não é o que eu estava procurando."
+        }
+      ],
+      "description": "Indique que a resposta do robô não aborda uma questão."
+    },
+    {
+      "intent": "Criar_orcamento",
+      "examples": [
+        {
+          "text": "como crio um orçamento?"
+        },
+        {
+          "text": "como faço um pedido de orçamento?"
+        },
+        {
+          "text": "como faço para orçar?"
+        }
+      ],
+      "description": "como criar pedido de orcamento"
+    },
+    {
+      "intent": "Criar_pedidos_venda",
+      "examples": [
+        {
+          "text": "como criar pedidos de venda?"
+        },
+        {
+          "text": "como criar uma nota?"
+        },
+        {
+          "text": "como gero uma nota?"
+        }
+      ],
+      "description": "Como criar pedidos de vendas"
+    },
+    {
+      "intent": "certficado_não_funciona",
+      "examples": [
+        {
+          "text": "o certificado não quer funcionar"
+        },
+        {
+          "text": "o meu certificado esta dando erro"
+        },
+        {
+          "text": "o meu certificado não esta funcionando"
+        },
+        {
+          "text": "token"
+        },
+        {
+          "text": "como fazer o certificado funcionar?"
+        },
+        {
+          "text": "como arrumar o certificado?"
+        },
+        {
+          "text": "o certificado não funciona"
+        },
+        {
+          "text": "o certificado não quer pegar"
+        }
+      ],
+      "description": "O certificado não funciona normalmente"
+    },
+    {
+      "intent": "piadas",
+      "examples": [
+        {
+          "text": "Eu não sou tedioso, você é."
+        },
+        {
+          "text": "Estou entediado."
+        },
+        {
+          "text": "Você tem quaisquer jogos?"
+        },
+        {
+          "text": "Você me entediou."
+        },
+        {
+          "text": "Você gosta de contar piadas?"
+        },
+        {
+          "text": "Vamos nos divertir!"
+        },
+        {
+          "text": "Surpreenda-me com algo hilariante."
+        },
+        {
+          "text": "Qual a sua piada favorita?"
+        },
+        {
+          "text": "Porque você é enfadonho?"
+        },
+        {
+          "text": "O que você faz para se divertir?"
+        },
+        {
+          "text": "Me conte mais uma."
+        },
+        {
+          "text": "Estou entediado. Entretenha-me!"
+        },
+        {
+          "text": "Você pode cantar para mim?"
+        },
+        {
+          "text": "Você pode me contar uma piada?"
+        },
+        {
+          "text": "Conte outra!"
+        },
+        {
+          "text": "Você sabe piadas?"
+        },
+        {
+          "text": "Você tem senso de humor?"
+        },
+        {
+          "text": "Está se divertindo?"
+        }
+      ],
+      "description": "Peça uma piada."
+    },
+    {
+      "intent": "cria_estoque",
+      "examples": [
+        {
+          "text": "como faço para criar estoque?"
+        },
+        {
+          "text": "como crio um estoque?"
+        },
+        {
+          "text": "como faço para criar um estoque novo?"
+        },
+        {
+          "text": "gerar um novo estoque"
+        }
+      ],
+      "description": "opção estoque"
+    },
+    {
+      "intent": "confirmar",
+      "examples": [
+        {
+          "text": "Ignore o que eu falei."
+        },
+        {
+          "text": "Você me entende."
+        },
+        {
+          "text": "Você leu minha mente."
+        },
+        {
+          "text": "Ótimo."
+        },
+        {
+          "text": "Sim, é isso!"
+        },
+        {
+          "text": "É disso que preciso."
+        },
+        {
+          "text": "Nós precisamos exatamente disso."
+        },
+        {
+          "text": "Afirmativo! É por isso que eu estava procurando."
+        },
+        {
+          "text": "Com certeza!"
+        },
+        {
+          "text": "Genial!"
+        },
+        {
+          "text": "Com certeza. Estou empolgado com isso."
+        },
+        {
+          "text": "Muito bem. Vamos fazê-lo."
+        },
+        {
+          "text": "Isso está certo."
+        },
+        {
+          "text": "Essa é a resposta apropriada."
+        },
+        {
+          "text": "Essa é a resposta certa."
+        },
+        {
+          "text": "Essa é a resposta pela qual procurava."
+        },
+        {
+          "text": "Está muito bom."
+        },
+        {
+          "text": "Eu gostei disso."
+        },
+        {
+          "text": "É exatamente disso que preciso."
+        },
+        {
+          "text": "Bom trabalho."
+        }
+      ],
+      "description": "Confirme que a resposta satisfaz uma pergunta."
+    },
+    {
+      "intent": "movimenta_produto",
+      "examples": [
+        {
+          "text": "como coloco um produto no estoque?"
+        },
+        {
+          "text": "como movimentar estoque?"
+        },
+        {
+          "text": "como faço para ter um produto num estoque?"
+        },
+        {
+          "text": "que opção uso para mover produto?"
+        }
+      ],
+      "description": "mover um produto para estoque"
+    },
+    {
+      "intent": "repetir_algo",
+      "examples": [
+        {
+          "text": "Pode tentar dizê-lo com mais clareza, por favor?"
+        },
+        {
+          "text": "Sobre o que você está falando?"
+        },
+        {
+          "text": "Você pode repetir, por favor?"
+        },
+        {
+          "text": "Você não foi claro."
+        },
+        {
+          "text": "Você não entendeu o que eu perguntei."
+        },
+        {
+          "text": "Você não entendeu o que eu disse."
+        },
+        {
+          "text": "Suas informações estão confusas."
+        },
+        {
+          "text": "Preciso que você repita a informação."
+        },
+        {
+          "text": "O que você quer dizer com isso?"
+        },
+        {
+          "text": "O que você me deu não é exatamente o que estou procurando."
+        },
+        {
+          "text": "Me desculpe, uma vez mais."
+        },
+        {
+          "text": "Eu preciso de mais informações."
+        },
+        {
+          "text": "Eu perdi a última parte. Poderia repetir?"
+        },
+        {
+          "text": "Eu não entendi."
+        },
+        {
+          "text": "Eu não entendi bem o que você me disse."
+        },
+        {
+          "text": "Diga isso novamente, por favor. Eu não ouvi."
+        },
+        {
+          "text": "Desculpe! Poderia repetir mais uma vez?"
+        },
+        {
+          "text": "Como é?"
+        },
+        {
+          "text": "A sua informação não está clara."
+        },
+        {
+          "text": "Acho que eu não fui claro."
+        }
+      ],
+      "description": "Repita ou esclareça a última declaração."
+    },
+    {
+      "intent": "negativo",
+      "examples": [
+        {
+          "text": "continua sem funcionar"
+        },
+        {
+          "text": "não deu certo"
+        },
+        {
+          "text": "não"
+        },
+        {
+          "text": "ainda não"
+        },
+        {
+          "text": "infelizmente não"
+        },
+        {
+          "text": "não apareceu nada"
+        },
+        {
+          "text": "não encontrei"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "nao eu disse que parou"
+        },
+        {
+          "text": "claro que nao"
+        },
+        {
+          "text": "não ta dando"
+        },
+        {
+          "text": "ja fiz e não funcionou"
+        }
+      ],
+      "description": "respostas relacionadas ao contexto negativo"
+    },
+    {
+      "intent": "positivo",
+      "examples": [
+        {
+          "text": "isso mesmo"
+        },
+        {
+          "text": "é"
+        },
+        {
+          "text": "correto"
+        },
+        {
+          "text": "ahan"
+        },
+        {
+          "text": "sim"
+        },
+        {
+          "text": "acertou"
+        }
+      ],
+      "description": "respostas com significado positivo"
+    },
+    {
+      "intent": "tirar_uma_duvida",
+      "examples": [
+        {
+          "text": "o que é NF-e"
+        },
+        {
+          "text": "o que é procion"
+        },
+        {
+          "text": "por que o preciso do certificado?"
+        },
+        {
+          "text": "o que é hadron ?"
+        },
+        {
+          "text": "O que é procion ?"
+        },
+        {
+          "text": "o que é cfop?"
+        },
+        {
+          "text": "o que é  NF-e?"
+        }
+      ],
+      "description": "O que é algo"
+    },
+    {
+      "intent": "risada",
+      "examples": [
+        {
+          "text": "kkkk"
+        },
+        {
+          "text": "hhahaha"
+        },
+        {
+          "text": "hahahah"
+        },
+        {
+          "text": "hahhah"
+        },
+        {
+          "text": "hehe"
+        },
+        {
+          "text": "hahahhaha"
+        },
+        {
+          "text": "shhshshhsh"
+        },
+        {
+          "text": "kkkkkkkkk"
+        },
+        {
+          "text": "hehehhehehhe"
+        },
+        {
+          "text": "ksksksksk"
+        },
+        {
+          "text": "skskskk"
+        },
+        {
+          "text": "hahahha"
+        },
+        {
+          "text": "hahaha"
+        },
+        {
+          "text": "hahah"
+        }
+      ],
+      "description": "tipos de risada"
+    },
+    {
+      "intent": "ja_fiz_isso",
+      "examples": [
+        {
+          "text": "cliquei"
+        },
+        {
+          "text": "ja tinha feito isso"
+        },
+        {
+          "text": "mas eu ja fiz"
+        },
+        {
+          "text": "de novo?"
+        },
+        {
+          "text": "eu ja"
+        },
+        {
+          "text": "pronto"
+        },
+        {
+          "text": "certo"
+        },
+        {
+          "text": "aham"
+        }
+      ],
+      "description": "quando o cliente já fez um procedimento"
+    },
+    {
+      "intent": "assunto_errado",
+      "examples": [
+        {
+          "text": "Vamos falar sobre outra coisa."
+        },
+        {
+          "text": "Vamos mudar de assunto?"
+        },
+        {
+          "text": "Vamos mudar de assunto."
+        },
+        {
+          "text": "Sobre o que mais podemos falar?"
+        },
+        {
+          "text": "Quero lidar com outro problema."
+        },
+        {
+          "text": "Quero falar de outra coisa."
+        },
+        {
+          "text": "Quero ajuda sobre outra coisa."
+        },
+        {
+          "text": "Preciso de outra coisa."
+        },
+        {
+          "text": "Preciso de algo totalmente diferente."
+        },
+        {
+          "text": "Podemos falar sobre outra coisa?"
+        },
+        {
+          "text": "Não quero falar disso."
+        },
+        {
+          "text": "Não quero falar desse assunto."
+        },
+        {
+          "text": "Não é disso que preciso, vamos mudar de assunto."
+        },
+        {
+          "text": "Esse assunto não tem nada a ver com o que preciso."
+        },
+        {
+          "text": "Esse assunto não tem nada a ver."
+        },
+        {
+          "text": "Esse assunto é irrelevante."
+        },
+        {
+          "text": "Esse assunto é inconveniente."
+        },
+        {
+          "text": "Não tenho mais o que falar sobre isso."
+        },
+        {
+          "text": "Vamos falar de outro assunto?"
+        }
+      ],
+      "description": "Mude para um tópico diferente."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "produto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "produto",
+          "synonyms": [
+            "mercadoria",
+            "item"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "estoque",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "movimentação",
+          "synonyms": [
+            "mover",
+            "passar",
+            "transferir"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "materiais",
+          "synonyms": [
+            "estocagem",
+            "armazenamento",
+            "deposito"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "opçoes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "opção",
+          "synonyms": [
+            "qual numero",
+            "codigo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "dia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dia",
+          "synonyms": [
+            "dia"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nota_fiscal",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nota",
+          "synonyms": [
+            "NF-e",
+            "faturamento",
+            "nota fiscal eletronica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cte",
+          "synonyms": [
+            "CT-e",
+            "cte",
+            "conhecimento"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "pedidos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "2131",
+          "synonyms": [
+            "cadastro de pedidos",
+            "2131"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "Certficado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cert_cartao",
+          "synonyms": [
+            "cartao",
+            "com leitora"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "marca",
+          "synonyms": [
+            "serasa",
+            "certsign",
+            "experian"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cert_arquivo",
+          "synonyms": [
+            "arquivo",
+            "A1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cert_token",
+          "synonyms": [
+            "pendrive",
+            "usb",
+            "token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "semtipo",
+          "synonyms": [
+            "A3"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "noite",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "noite",
+          "synonyms": [
+            "noite"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "auxilia os clientes com duvidas sobre como proceder no uso do sistema",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Menos mal, o certificado está instalado"
+              },
+              {
+                "text": "Ah! isso é sinal de que está instalado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1561471107013",
+      "metadata": {},
+      "conditions": "#positivo",
+      "dialog_node": "node_8_1561471753312",
+      "previous_sibling": "node_7_1561471289976"
+    },
+    {
+      "type": "standard",
+      "title": "Certificado desinstalado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ih isso significa que o certificado está desinstalado"
+              },
+              {
+                "text": "Vish então o seu certificado está desinstalado"
+              },
+              {
+                "text": "então não esta instalado"
+              },
+              {
+                "text": "então teremos que instalá-lo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1561471107013",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1561122886736"
+      },
+      "conditions": "#negativo",
+      "dialog_node": "node_7_1561471289976"
+    },
+    {
+      "type": "standard",
+      "title": "Abrir opções da internet",
+      "output": {
+        "generic": [
+          {
+            "title": "Opções da internet",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/Op%C3%A7%C3%B5es_da_internet.JPG",
+            "description": "Legal, agora vamos clicar em \"Opções da internet\".",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1561468769454",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_3_1561469210024"
+    },
+    {
+      "type": "standard",
+      "title": "Certificados",
+      "output": {
+        "generic": [
+          {
+            "title": "certificados",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/certificado-03.JPG",
+            "description": "Clique em Certificados como na imagem",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1561470693862",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_5_1561470948090"
+    },
+    {
+      "type": "standard",
+      "title": "Verificar se estão la",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O seu certificado está aparecendo na janelinha que abriu? "
+              },
+              {
+                "text": "O seu certificado apareceu aí?"
+              },
+              {
+                "text": "E então, o certificado apareceu aí?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1561472143523",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_14_1561472143523"
+    },
+    {
+      "type": "standard",
+      "title": "Deu certo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah que bom qualquer coisa só me chamar"
+              },
+              {
+                "text": "Legal, que bom que funcionou."
+              },
+              {
+                "text": "beleza, fico feliz em ajudar :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1561130221210",
+      "metadata": {},
+      "conditions": "#positivo",
+      "dialog_node": "node_17_1561472317408",
+      "previous_sibling": "node_9_1561472143515"
+    },
+    {
+      "type": "standard",
+      "title": "Abrir o menu",
+      "output": {
+        "generic": [
+          {
+            "title": "Então vamos tentar outra coisa... Abra o menu iniciar como na imagem",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/MenuIniciar.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_10_1561130221210",
+      "metadata": {},
+      "conditions": "#negativo",
+      "dialog_node": "node_9_1561472143515"
+    },
+    {
+      "type": "standard",
+      "title": "Se o SafeSign Não aparecer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah então será mais complicado, vamos ter que instalar alguns drivers, por favor nos ligue no número (19) 3342-6730 ou nos chame no whatsapp no número (19)..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1561122886736",
+      "metadata": {},
+      "conditions": "#negativo",
+      "dialog_node": "node_20_1561473701292",
+      "previous_sibling": "node_19_1561473619937"
+    },
+    {
+      "type": "standard",
+      "title": "Tela inicial Certsign",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1561122886736",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_19_1561473619937"
+    },
+    {
+      "type": "standard",
+      "title": "Abrir o Painel de controle",
+      "output": {
+        "generic": [
+          {
+            "title": "Legal, então vamos clicar em painel de controle...",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/painel-de-controle.JPG",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1561397301988",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_2_1561468769454"
+    },
+    {
+      "type": "standard",
+      "title": "Reiniciar o certificado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor retire o cartão da leitora e plugue-o novamente. Desconecte a leitora da máquina e conecte novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1561123402630",
+      "metadata": {},
+      "conditions": "@Certficado:cert_cartao",
+      "dialog_node": "node_5_1561124053083",
+      "previous_sibling": "node_3_1561123950087"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não conheço esse tipo de certificado, me fale mais dele."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1561123402630",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_11_1561130915149",
+      "previous_sibling": "node_5_1561124053083"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor desconecte o certificado USB do computador "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1561123402630",
+      "metadata": {},
+      "conditions": "@Certficado:cert_token",
+      "dialog_node": "node_3_1561123950087"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah que bom fico feliz que ajudei."
+              },
+              {
+                "text": "legal, então posso te ajudar em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1561123950087",
+      "metadata": {},
+      "conditions": "#concluido",
+      "dialog_node": "node_13_1561131561948",
+      "previous_sibling": "node_9_1561129645157"
+    },
+    {
+      "type": "standard",
+      "title": "Verificar se agora funciona",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E está funcionando?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1561123950087",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_9_1561129645157"
+    },
+    {
+      "type": "standard",
+      "title": "Verificar se estão la",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O seu certificado está aparecendo na janelinha que abriu? "
+              },
+              {
+                "text": "O seu certificado apareceu aí?"
+              },
+              {
+                "text": "E então, o certificado apareceu aí?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1561470948090",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_6_1561471107013"
+    },
+    {
+      "type": "standard",
+      "title": "Certificados",
+      "output": {
+        "generic": [
+          {
+            "title": "certificados",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/certificado-03.JPG",
+            "description": "Clique em Certificados como na imagem",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_12_1561472143523",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_13_1561472143523"
+    },
+    {
+      "type": "standard",
+      "title": "Abrir o Painel de controle",
+      "output": {
+        "generic": [
+          {
+            "title": "Legal, então vamos clicar em painel de controle...",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/painel-de-controle.JPG",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1561472143515",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_10_1561472143523"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Menos mal, o certificado está instalado"
+              },
+              {
+                "text": "Ah! isso é sinal de que está instalado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1561472143523",
+      "metadata": {},
+      "conditions": "#positivo",
+      "dialog_node": "node_16_1561472143523",
+      "previous_sibling": "node_15_1561472143523"
+    },
+    {
+      "type": "standard",
+      "title": "Certificado desinstalado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ih isso significa que o certificado está desinstalado"
+              },
+              {
+                "text": "Vish então o seu certificado está desinstalado"
+              },
+              {
+                "text": "então não esta instalado"
+              },
+              {
+                "text": "então teremos que instalá-lo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1561472143523",
+      "metadata": {},
+      "conditions": "#negativo",
+      "dialog_node": "node_15_1561472143523"
+    },
+    {
+      "type": "standard",
+      "title": "Deu certo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah que bom fico feliz que ajudei."
+              },
+              {
+                "text": "legal, então posso te ajudar em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1561124053083",
+      "metadata": {},
+      "conditions": "#concluido",
+      "dialog_node": "node_18_1561472378717",
+      "previous_sibling": "node_10_1561130221210"
+    },
+    {
+      "type": "standard",
+      "title": "Verificar se funcionou",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1561124053083",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_10_1561130221210"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah que bom qualquer coisa só me chamar"
+              },
+              {
+                "text": "Legal, que bom que funcionou."
+              },
+              {
+                "text": "beleza, fico feliz em ajudar :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1561129645157",
+      "metadata": {},
+      "conditions": "#positivo",
+      "dialog_node": "node_1_1561467750333",
+      "previous_sibling": "node_4_1561397301988"
+    },
+    {
+      "type": "standard",
+      "title": "Abrir o menu",
+      "output": {
+        "generic": [
+          {
+            "title": "Então vamos tentar outra coisa... Abra o menu iniciar como na imagem",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/MenuIniciar.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1561129645157",
+      "metadata": {},
+      "conditions": "#negativo",
+      "dialog_node": "node_4_1561397301988"
+    },
+    {
+      "type": "standard",
+      "title": "Ir em Conteudo",
+      "output": {
+        "generic": [
+          {
+            "title": "Conteudo",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/certificado-01.JPG",
+            "description": "Agora que abriu uma janelinha..va em conteudo",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1561469210024",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_4_1561470693862"
+    },
+    {
+      "type": "standard",
+      "title": "Ir em Conteudo",
+      "output": {
+        "generic": [
+          {
+            "title": "Conteudo",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/certificado-01.JPG",
+            "description": "Agora que abriu uma janelinha..va em conteudo",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_11_1561472143523",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_12_1561472143523"
+    },
+    {
+      "type": "standard",
+      "title": "Abrir opções da internet",
+      "output": {
+        "generic": [
+          {
+            "title": "Opções da internet",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/Op%C3%A7%C3%B5es_da_internet.JPG",
+            "description": "Legal, agora vamos clicar em \"Opções da internet\".",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_10_1561472143523",
+      "metadata": {},
+      "conditions": "#ja_fiz_isso",
+      "dialog_node": "node_11_1561472143523"
+    },
+    {
+      "type": "standard",
+      "title": "Instalar Certificado",
+      "output": {
+        "generic": [
+          {
+            "title": "Menu",
+            "source": "https://raw.githubusercontent.com/Calistu/WATSON-IBM/master/MenuSafesign.png",
+            "description": "Pesquise no Menu iniciar o programa 'safesign'",
+            "response_type": "image"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Instalar_certificado",
+      "dialog_node": "node_1_1561122886736",
+      "previous_sibling": "node_2_1561121164323"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ih não entendi, acho que meu criador esqueceu de me ensinar isso"
+              },
+              {
+                "text": "Ainda preciso aprender algumas coisas, como essa ai"
+              },
+              {
+                "text": "ainda não aprendi isso"
+              },
+              {
+                "text": "Depois vou perguntar pro meu chefe como responder isso. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_12_1561131313695"
+    },
+    {
+      "type": "standard",
+      "title": "Lancar_Produto_Estoque",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode usar a oção 5112"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@estoque && @produto && @opçoes || #movimenta_produto",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1561121961460",
+      "previous_sibling": "node_6_1561120238011"
+    },
+    {
+      "type": "standard",
+      "title": "Certificado_sem_Funcionar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O seu certicado é de que tipo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#certficado_não_funciona || @Certficado && #tirar_uma_duvida",
+      "dialog_node": "node_2_1561123402630",
+      "previous_sibling": "node_1_1561122886736"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah eu sei que sou engraçado"
+              },
+              {
+                "text": "sou muito engraçado né heheh"
+              },
+              {
+                "text": "hahahha sou cheio de graça"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#risada",
+      "dialog_node": "node_12_1561131313695",
+      "previous_sibling": "node_8_1561129426135"
+    },
+    {
+      "type": "standard",
+      "title": "NF-e",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pela definição oficial brasileira, uma nota fiscal eletrônica é \"um documento de existência apenas digital, emitido e armazenado eletronicamente, com o intuito de documentar uma operação de circulação de mercadorias ou uma prestação de serviços"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@nota_fiscal && #tirar_uma_duvida",
+      "dialog_node": "node_6_1561120238011",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bom diaa :)"
+              },
+              {
+                "text": "Bom dia flor do dia hahha "
+              },
+              {
+                "text": "Opa o dia está lindo mesmo"
+              },
+              {
+                "text": "belo dia mesmo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#saudaçoes && @dia",
+      "dialog_node": "node_6_1561128472937",
+      "previous_sibling": "node_2_1561123402630"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Na delegacia\nA mulher chega desesperada... Seu delegado meu marido saiu de casa ontem a noite, disse que ia comprar arroz e até agora não voltou. O que eu faço doutor?\n\n–O delegado diz... Sei lá, faz macarrão!!"
+              },
+              {
+                "text": "- Quantos anos você tem?\n\n- Olhando pra mim o que você acha?\n\n- Feio. Mas qual sua idade?"
+              },
+              {
+                "text": "- Você conhece piada do Alzheimer?\n\n- Não, qual?\n\n- Qual o quê?"
+              },
+              {
+                "text": "- Mãe!\n\n- O que foi, menino?\n\n- Acho que queimei o café!\n\n- Mas como?\n\n- Sei lá, a água tá preta!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#piadas",
+      "dialog_node": "node_1_1561384631946",
+      "previous_sibling": "node_2_1561396565497"
+    },
+    {
+      "type": "standard",
+      "title": "Boa_Noite",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boa noite ? então  já acabou meu expediente hahaha."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#saudação && @noite",
+      "dialog_node": "node_8_1561129426135",
+      "previous_sibling": "node_1_1561384631946"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oiii beleza??"
+              },
+              {
+                "text": "E ai como vai?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#saudaçoes",
+      "dialog_node": "node_2_1561396565497",
+      "previous_sibling": "node_6_1561128472937"
+    },
+    {
+      "type": "standard",
+      "title": "Cria_Estoque",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para criar estoque use a opção 5111"
+              },
+              {
+                "text": "A opção 5111 pode resolver seu problema"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#opcoes && @estoque || #cria_estoque",
+      "dialog_node": "node_2_1561121164323",
+      "previous_sibling": "node_3_1561121961460"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bem vindo ao AI da Prócion Sistemas, por favor pode falar comigo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "workspace_id": "da8781f2-f5a3-44ab-bcfd-02f1cbcc9104",
+  "counterexamples": [
+    {
+      "text": "certificado"
+    },
+    {
+      "text": "eu sou bonito?"
+    },
+    {
+      "text": "token"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
