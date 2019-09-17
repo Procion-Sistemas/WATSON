@@ -5,58 +5,58 @@
       "intent": "quem_e",
       "examples": [
         {
-          "text": "Você é humano?"
-        },
-        {
-          "text": "Você pode ser honesto comigo?"
-        },
-        {
-          "text": "Você é real?"
+          "text": "Você é um homem ou uma mulher?"
         },
         {
           "text": "Você é real, pelo menos?"
         },
         {
-          "text": "Você é um homem ou uma mulher?"
+          "text": "Você é real?"
         },
         {
           "text": "Você é um humano ou um robô?"
         },
         {
-          "text": "Quem é você, realmente?"
-        },
-        {
-          "text": "Estou conversando com um robô?"
-        },
-        {
           "text": "Você é uma pessoa real ou um robô?"
         },
         {
-          "text": "Estou conversando com um humano?"
+          "text": "Você pode ser honesto comigo?"
         },
         {
-          "text": "Estou conversando com uma pessoa ou com uma IA?"
-        },
-        {
-          "text": "Diga-me, você é humano ou não?"
-        },
-        {
-          "text": "Como você pode provar que é humano?"
-        },
-        {
-          "text": "Com quem estou falando?"
-        },
-        {
-          "text": "Como eu posso conversar com o Watson?"
-        },
-        {
-          "text": "Eu estou conversando com o Watson?"
+          "text": "Quem é você?"
         },
         {
           "text": "Isso é um computador?"
         },
         {
-          "text": "Quem é você?"
+          "text": "Eu estou conversando com o Watson?"
+        },
+        {
+          "text": "Como eu posso conversar com o Watson?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Como você pode provar que é humano?"
+        },
+        {
+          "text": "Diga-me, você é humano ou não?"
+        },
+        {
+          "text": "Estou conversando com uma pessoa ou com uma IA?"
+        },
+        {
+          "text": "Estou conversando com um robô?"
+        },
+        {
+          "text": "Estou conversando com um humano?"
+        },
+        {
+          "text": "Você é humano?"
+        },
+        {
+          "text": "Quem é você, realmente?"
         }
       ],
       "description": "Pergunte se está falando com um humano ou um robô."
@@ -65,7 +65,16 @@
       "intent": "assunto_errado",
       "examples": [
         {
-          "text": "Não quero falar disso."
+          "text": "Quero lidar com outro problema."
+        },
+        {
+          "text": "Não é disso que preciso, vamos mudar de assunto."
+        },
+        {
+          "text": "Quero ajuda sobre outra coisa."
+        },
+        {
+          "text": "Preciso de outra coisa."
         },
         {
           "text": "Quero falar de outra coisa."
@@ -83,13 +92,13 @@
           "text": "Não quero falar desse assunto."
         },
         {
-          "text": "Não é disso que preciso, vamos mudar de assunto."
-        },
-        {
           "text": "Vamos falar sobre outra coisa."
         },
         {
           "text": "Podemos falar sobre outra coisa?"
+        },
+        {
+          "text": "Não quero falar disso."
         },
         {
           "text": "Esse assunto é inconveniente."
@@ -111,15 +120,6 @@
         },
         {
           "text": "Preciso de algo totalmente diferente."
-        },
-        {
-          "text": "Preciso de outra coisa."
-        },
-        {
-          "text": "Quero ajuda sobre outra coisa."
-        },
-        {
-          "text": "Quero lidar com outro problema."
         }
       ],
       "description": "Mude para um tópico diferente."
@@ -128,28 +128,7 @@
       "intent": "ja_fiz_isso",
       "examples": [
         {
-          "text": "mas eu ja fiz"
-        },
-        {
-          "text": "aham"
-        },
-        {
-          "text": "de novo?"
-        },
-        {
-          "text": "cliquei"
-        },
-        {
-          "text": "pronto"
-        },
-        {
           "text": "ja fiz isso"
-        },
-        {
-          "text": "abri"
-        },
-        {
-          "text": "ja tinha feito isso"
         },
         {
           "text": "certo"
@@ -158,7 +137,28 @@
           "text": "ta e agora?"
         },
         {
+          "text": "ja tinha feito isso"
+        },
+        {
+          "text": "de novo?"
+        },
+        {
+          "text": "pronto"
+        },
+        {
+          "text": "abri"
+        },
+        {
+          "text": "aham"
+        },
+        {
+          "text": "cliquei"
+        },
+        {
           "text": "eu ja"
+        },
+        {
+          "text": "mas eu ja fiz"
         }
       ],
       "description": "quando o cliente já fez um procedimento"
@@ -166,9 +166,6 @@
     {
       "intent": "erros",
       "examples": [
-        {
-          "text": "esta aparecendo mensagem de erro"
-        },
         {
           "text": "estou vendo erros ao emitir uma nota"
         },
@@ -183,6 +180,9 @@
         },
         {
           "text": "como arrumo esse erro?"
+        },
+        {
+          "text": "esta aparecendo mensagem de erro"
         }
       ],
       "description": "mensagens de erro"
@@ -191,12 +191,6 @@
       "intent": "Instalar_certificado",
       "examples": [
         {
-          "text": "quero instalar um certificado"
-        },
-        {
-          "text": "o certificado nao esta instalado"
-        },
-        {
           "text": "como instalo certificado"
         },
         {
@@ -204,6 +198,12 @@
         },
         {
           "text": "certificado novo"
+        },
+        {
+          "text": "quero instalar um certificado"
+        },
+        {
+          "text": "o certificado nao esta instalado"
         }
       ],
       "description": "cliente com certificado desinstalado"
@@ -212,19 +212,10 @@
       "intent": "positivo",
       "examples": [
         {
-          "text": "ahan"
-        },
-        {
-          "text": "tudo otimo e vc"
-        },
-        {
-          "text": "é"
+          "text": "combinado"
         },
         {
           "text": "beleza"
-        },
-        {
-          "text": "combinado"
         },
         {
           "text": "sim"
@@ -233,10 +224,10 @@
           "text": "otimo"
         },
         {
-          "text": "entendi"
+          "text": "certo"
         },
         {
-          "text": "isso mesmo"
+          "text": "tudo otimo e vc"
         },
         {
           "text": "correto"
@@ -245,7 +236,16 @@
           "text": "acertou"
         },
         {
-          "text": "certo"
+          "text": "é"
+        },
+        {
+          "text": "isso mesmo"
+        },
+        {
+          "text": "entendi"
+        },
+        {
+          "text": "ahan"
         }
       ],
       "description": "respostas com significado positivo"
@@ -254,16 +254,16 @@
       "intent": "qual_cfop",
       "examples": [
         {
-          "text": "que cfop eu uso para remessa?"
-        },
-        {
           "text": "qual cfop para venda?"
         },
         {
-          "text": "qual cfop para venda de mercadoria?"
+          "text": "que cfop eu uso para remessa?"
         },
         {
           "text": "que cfop eu uso para devolução?"
+        },
+        {
+          "text": "qual cfop para venda de mercadoria?"
         }
       ],
       "description": "duvida sobre qual cfop usar"
@@ -272,58 +272,7 @@
       "intent": "fim_de_papo",
       "examples": [
         {
-          "text": "Te desejo o melhor de sorte..Tchau"
-        },
-        {
-          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
-        },
-        {
-          "text": "Com licença, tenho que ir agora"
-        },
-        {
-          "text": "Vejo você mais tarde."
-        },
-        {
-          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
-        },
-        {
-          "text": "Ainda não terminou?"
-        },
-        {
-          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
-        },
-        {
-          "text": "Falo contigo depois. Tchau"
-        },
-        {
-          "text": "Me tire daqui."
-        },
-        {
-          "text": "Volto mais tarde."
-        },
-        {
-          "text": "Estou cansado de digitar agora. Obrigado e adeus"
-        },
-        {
-          "text": "Quero encerrar a conversa, obrigado."
-        },
-        {
-          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
-        },
-        {
-          "text": "Obrigada, tchau!"
-        },
-        {
-          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
-        },
-        {
           "text": "Obrigado por responder todas as minhas perguntas. Tchau"
-        },
-        {
-          "text": "Ok, isso é tudo que eu preciso para agora."
-        },
-        {
-          "text": "pare esta sessão agora..Tchau"
         },
         {
           "text": "Tudo bem, eu tenho tudo o que eu precisava"
@@ -339,6 +288,57 @@
         },
         {
           "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Volto mais tarde."
         }
       ],
       "description": "Termine a conversa."
@@ -347,22 +347,22 @@
       "intent": "reiniciar",
       "examples": [
         {
-          "text": "desconecte e conecte novamente"
-        },
-        {
-          "text": "feche e abra"
-        },
-        {
-          "text": "desconecte e conecte"
-        },
-        {
-          "text": "reinicie"
+          "text": "desplugue e plugue novamente"
         },
         {
           "text": "desligue e ligue novamente"
         },
         {
-          "text": "desplugue e plugue novamente"
+          "text": "desconecte e conecte"
+        },
+        {
+          "text": "feche e abra"
+        },
+        {
+          "text": "desconecte e conecte novamente"
+        },
+        {
+          "text": "reinicie"
         }
       ],
       "description": "frases que usamos para desconectar algum dispositivo"
@@ -372,39 +372,6 @@
       "examples": [
         {
           "text": "Eu quero tentar o seu agente virtual."
-        },
-        {
-          "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
-        },
-        {
-          "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
-        },
-        {
-          "text": "Existe alguém com quem eu posso realmente falar de verdade?"
-        },
-        {
-          "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
-        },
-        {
-          "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
-        },
-        {
-          "text": "Quero falar com alguém de outra área."
-        },
-        {
-          "text": "Eu preciso falar com um representante. Como posso fazer isso?"
-        },
-        {
-          "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
-        },
-        {
-          "text": "aonde fica a procion?"
-        },
-        {
-          "text": "qual o numero de telefone daí?"
-        },
-        {
-          "text": "Você pode me conectar com uma pessoa real?"
         },
         {
           "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
@@ -435,6 +402,39 @@
         },
         {
           "text": "Por favor me conectar a um agente humano que é fluente em inglês."
+        },
+        {
+          "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
+        },
+        {
+          "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
+        },
+        {
+          "text": "Existe alguém com quem eu posso realmente falar de verdade?"
+        },
+        {
+          "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
+        },
+        {
+          "text": "Quero falar com alguém de outra área."
+        },
+        {
+          "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
+        },
+        {
+          "text": "Eu preciso falar com um representante. Como posso fazer isso?"
+        },
+        {
+          "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
+        },
+        {
+          "text": "aonde fica a procion?"
+        },
+        {
+          "text": "qual o numero de telefone daí?"
+        },
+        {
+          "text": "Você pode me conectar com uma pessoa real?"
         }
       ],
       "description": "Solicite um agente humano."
@@ -443,7 +443,7 @@
       "intent": "pessoal",
       "examples": [
         {
-          "text": "Estou procurando uma solução para melhorar o meu engajamento com o cliente usando este agente virtual."
+          "text": "Há quanto tempo você tem desempenhado essa função?"
         },
         {
           "text": "Você fala Francês?"
@@ -458,10 +458,19 @@
           "text": "Quais são os seus apelidos?"
         },
         {
-          "text": "Este agente foi construído usando processamento de linguagem natural?"
+          "text": "Quero configurar saudações aqui."
         },
         {
-          "text": "Quero configurar saudações aqui."
+          "text": "Estou procurando uma solução para melhorar o meu engajamento com o cliente usando este agente virtual."
+        },
+        {
+          "text": "Eu preciso da informação sobre o preço do Watson."
+        },
+        {
+          "text": "Quero entender como você trabalha."
+        },
+        {
+          "text": "Qual a sua idade?"
         },
         {
           "text": "Como você se descreve?"
@@ -473,16 +482,7 @@
           "text": "Me diga três coisas sobre você."
         },
         {
-          "text": "Qual a sua idade?"
-        },
-        {
-          "text": "Quero entender como você trabalha."
-        },
-        {
-          "text": "Há quanto tempo você tem desempenhado essa função?"
-        },
-        {
-          "text": "Eu preciso da informação sobre o preço do Watson."
+          "text": "Este agente foi construído usando processamento de linguagem natural?"
         }
       ],
       "description": "Solicite atributos pessoais genéricos."
@@ -491,10 +491,10 @@
       "intent": "InserirIcone",
       "examples": [
         {
-          "text": "Sumiu meu icone"
+          "text": "onde esta o sistema?"
         },
         {
-          "text": "onde esta o sistema?"
+          "text": "cade o Hadron?"
         },
         {
           "text": "nao estou achando o hadron"
@@ -509,7 +509,7 @@
           "text": "aonde esta o hadron?"
         },
         {
-          "text": "cade o Hadron?"
+          "text": "Sumiu meu icone"
         }
       ],
       "description": "Para acessar o Hadron, é criado um Icone na Area de Trabalho do Windows."
@@ -518,19 +518,22 @@
       "intent": "negativo",
       "examples": [
         {
-          "text": "ainda não"
+          "text": "nope"
         },
         {
           "text": "não encontrei"
         },
         {
-          "text": "infelizmente não"
+          "text": "não apareceu nada"
         },
         {
           "text": "continua sem funcionar"
         },
         {
-          "text": "não apareceu nada"
+          "text": "infelizmente não"
+        },
+        {
+          "text": "não"
         },
         {
           "text": "não ta dando"
@@ -542,16 +545,13 @@
           "text": "nao eu disse que parou"
         },
         {
-          "text": "nope"
+          "text": "ainda não"
         },
         {
           "text": "ja fiz e não funcionou"
         },
         {
           "text": "não deu certo"
-        },
-        {
-          "text": "não"
         }
       ],
       "description": "respostas relacionadas ao contexto negativo"
@@ -560,28 +560,22 @@
       "intent": "saudaçoes",
       "examples": [
         {
-          "text": "Bom dia, como você está?"
-        },
-        {
-          "text": "Eu gostaria de conversar com o Watson."
-        },
-        {
-          "text": "Ei, você está aí?"
-        },
-        {
-          "text": "eae como vai?"
-        },
-        {
-          "text": "Boa tarde , você está ai?"
-        },
-        {
-          "text": "boa tarde"
+          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
         },
         {
           "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
         },
         {
-          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+          "text": "boa tarde"
+        },
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "eae como vai?"
+        },
+        {
+          "text": "Ei, você está aí?"
         },
         {
           "text": "Como estão as coisas aí?"
@@ -597,6 +591,12 @@
         },
         {
           "text": "oi tudo bom?"
+        },
+        {
+          "text": "Bom dia, como você está?"
+        },
+        {
+          "text": "Eu gostaria de conversar com o Watson."
         }
       ],
       "description": "Cumprimente o robô."
@@ -629,28 +629,28 @@
       "intent": "oquee",
       "examples": [
         {
-          "text": "O que significa Prócion?"
-        },
-        {
-          "text": "o que é um orçamento?"
-        },
-        {
-          "text": "que que é NFC-e"
-        },
-        {
-          "text": "O que é um pedido?"
-        },
-        {
-          "text": "O que é MDF-e?"
-        },
-        {
-          "text": "o que é certificado?"
+          "text": "O que é RNTRC?"
         },
         {
           "text": "o que é um emitente?"
         },
         {
           "text": "que que é um gerenciador de certificado?"
+        },
+        {
+          "text": "O que é um pedido?"
+        },
+        {
+          "text": "que que é NFC-e"
+        },
+        {
+          "text": "o que é um orçamento?"
+        },
+        {
+          "text": "O que é MDF-e?"
+        },
+        {
+          "text": "o que é certificado?"
         },
         {
           "text": "O que é um título?"
@@ -671,7 +671,7 @@
           "text": "O que é NF-e?"
         },
         {
-          "text": "O que é RNTRC?"
+          "text": "O que significa Prócion?"
         }
       ],
       "description": "Significados sobre diversos assuntos"
@@ -679,9 +679,6 @@
     {
       "intent": "risada",
       "examples": [
-        {
-          "text": "hahah"
-        },
         {
           "text": "shhshshhsh"
         },
@@ -692,37 +689,40 @@
           "text": "hehehhehehhe"
         },
         {
-          "text": "ksksksksk"
-        },
-        {
-          "text": "skskskk"
-        },
-        {
-          "text": "hahahha"
-        },
-        {
-          "text": "hahaha"
-        },
-        {
-          "text": "hhahaha"
-        },
-        {
-          "text": "hahahhaha"
-        },
-        {
-          "text": "hahahah"
-        },
-        {
-          "text": "kkkkkkkkk"
-        },
-        {
-          "text": "kkkk"
+          "text": "hahhah"
         },
         {
           "text": "hehe"
         },
         {
-          "text": "hahhah"
+          "text": "kkkk"
+        },
+        {
+          "text": "hahah"
+        },
+        {
+          "text": "hahahah"
+        },
+        {
+          "text": "hahahhaha"
+        },
+        {
+          "text": "hhahaha"
+        },
+        {
+          "text": "hahaha"
+        },
+        {
+          "text": "hahahha"
+        },
+        {
+          "text": "skskskk"
+        },
+        {
+          "text": "ksksksksk"
+        },
+        {
+          "text": "kkkkkkkkk"
         }
       ],
       "description": "tipos de risada"
@@ -731,19 +731,19 @@
       "intent": "concluido",
       "examples": [
         {
-          "text": "ah deu certo"
-        },
-        {
-          "text": "foi"
-        },
-        {
-          "text": "ta funcionando"
+          "text": "agora deu"
         },
         {
           "text": "deu certo"
         },
         {
-          "text": "agora deu"
+          "text": "ah deu certo"
+        },
+        {
+          "text": "ta funcionando"
+        },
+        {
+          "text": "foi"
         }
       ],
       "description": "caso o bot tenha dado uma solução"
@@ -751,30 +751,6 @@
     {
       "intent": "errado",
       "examples": [
-        {
-          "text": "Essa não foi a minha intenção."
-        },
-        {
-          "text": "A resposta está incorreta."
-        },
-        {
-          "text": "O que você me deu não é o que eu estava procurando."
-        },
-        {
-          "text": "nao tenho o instalador"
-        },
-        {
-          "text": "Não é isso."
-        },
-        {
-          "text": "Você não faz idéia."
-        },
-        {
-          "text": "Eu não entendo o que você está dizendo."
-        },
-        {
-          "text": "Isso não estava correto. Esqueçamos."
-        },
         {
           "text": "Você não entendeu o que eu pedi."
         },
@@ -785,37 +761,61 @@
           "text": "Você está me entendendo mal."
         },
         {
-          "text": "Essa parece ser a resposta errada."
-        },
-        {
-          "text": "Eu não acho que essa seja a resposta."
-        },
-        {
-          "text": "Eu não disse isso."
-        },
-        {
           "text": "O que você me deu não foi exatamente o que pedi."
         },
         {
-          "text": "Não estou entendendo."
+          "text": "Eu não entendo o que você está dizendo."
         },
         {
-          "text": "Isso não é o que quero dizer."
-        },
-        {
-          "text": "Isso estava errado, tente novamente."
-        },
-        {
-          "text": "Eu não quis dizer isso."
-        },
-        {
-          "text": "Eu não quero isso."
+          "text": "Eu não falei sobre isso."
         },
         {
           "text": "Eu não preciso disso."
         },
         {
-          "text": "Eu não falei sobre isso."
+          "text": "nao tenho o instalador"
+        },
+        {
+          "text": "Não é isso."
+        },
+        {
+          "text": "Eu não disse isso."
+        },
+        {
+          "text": "Eu não acho que essa seja a resposta."
+        },
+        {
+          "text": "Essa parece ser a resposta errada."
+        },
+        {
+          "text": "O que você me deu não é o que eu estava procurando."
+        },
+        {
+          "text": "Essa não foi a minha intenção."
+        },
+        {
+          "text": "Eu não quero isso."
+        },
+        {
+          "text": "Eu não quis dizer isso."
+        },
+        {
+          "text": "Isso estava errado, tente novamente."
+        },
+        {
+          "text": "Isso não é o que quero dizer."
+        },
+        {
+          "text": "Não estou entendendo."
+        },
+        {
+          "text": "A resposta está incorreta."
+        },
+        {
+          "text": "Você não faz idéia."
+        },
+        {
+          "text": "Isso não estava correto. Esqueçamos."
         }
       ],
       "description": "Indique que a resposta do robô não aborda uma questão."
@@ -823,12 +823,6 @@
     {
       "intent": "ajuda",
       "examples": [
-        {
-          "text": "pode me ajudar?"
-        },
-        {
-          "text": "quero emitir um conhecimento?"
-        },
         {
           "text": "eu tenho uma dúvida"
         },
@@ -840,6 +834,12 @@
         },
         {
           "text": "me responda uma coisa"
+        },
+        {
+          "text": "pode me ajudar?"
+        },
+        {
+          "text": "quero emitir um conhecimento?"
         }
       ],
       "description": "o cliente solicita ajuda"
@@ -848,28 +848,28 @@
       "intent": "certficado_não_funciona",
       "examples": [
         {
-          "text": "como arrumar o certificado?"
-        },
-        {
-          "text": "o certificado não funciona"
+          "text": "o meu certificado não esta funcionando"
         },
         {
           "text": "o certificado não quer funcionar"
         },
         {
-          "text": "o meu certificado não esta funcionando"
-        },
-        {
-          "text": "o certificado não quer pegar"
-        },
-        {
-          "text": "certificado não abre"
+          "text": "o certificado não funciona"
         },
         {
           "text": "o meu certificado esta dando erro"
         },
         {
           "text": "como fazer o certificado funcionar?"
+        },
+        {
+          "text": "como arrumar o certificado?"
+        },
+        {
+          "text": "certificado não abre"
+        },
+        {
+          "text": "o certificado não quer pegar"
         }
       ],
       "description": "O certificado não funciona normalmente"
@@ -877,6 +877,9 @@
     {
       "intent": "piadas",
       "examples": [
+        {
+          "text": "Me conte mais uma."
+        },
         {
           "text": "Você me entediou."
         },
@@ -927,9 +930,6 @@
         },
         {
           "text": "Você gosta de contar piadas?"
-        },
-        {
-          "text": "Me conte mais uma."
         }
       ],
       "description": "Peça uma piada."
@@ -938,61 +938,79 @@
       "intent": "como_hadron",
       "examples": [
         {
-          "text": "como eu faço para emitir?"
+          "text": "quero emitir um cte"
         },
         {
           "text": "como emito um cte?"
         },
         {
-          "text": "em que opção eu crio um orçamento?"
-        },
-        {
-          "text": "como crio um pedido"
-        },
-        {
-          "text": "Cadastro de Carta de correcao"
-        },
-        {
-          "text": "Cadastro de operadores"
-        },
-        {
-          "text": "como crio um pedido?"
-        },
-        {
-          "text": "me ensina a fazer uma a listagem de boletos?"
-        },
-        {
-          "text": "em que opção do sistema eu faço um cadastro de veículos?"
-        },
-        {
-          "text": "em que opção eu crio um titulo?"
-        },
-        {
-          "text": "você sabe como fazer uma baixa? pode me ensinar?"
-        },
-        {
-          "text": "como eu faço uma nfe?"
-        },
-        {
-          "text": "como eu cadastro um operador?"
-        },
-        {
-          "text": "como eu gero um cte?"
-        },
-        {
-          "text": "como eu listo vendas?"
-        },
-        {
-          "text": "onde faço uma nota de correção?"
-        },
-        {
-          "text": "carta  de correcão"
+          "text": "em que lugar do hadron eu vou para criar uma carga?"
         },
         {
           "text": "Cancelamento de Notas Fiscais"
         },
         {
-          "text": "em que lugar do hadron eu vou para criar uma carga?"
+          "text": "carta  de correcão"
+        },
+        {
+          "text": "onde faço uma nota de correção?"
+        },
+        {
+          "text": "como eu listo vendas?"
+        },
+        {
+          "text": "como eu gero um cte?"
+        },
+        {
+          "text": "como eu cadastro um operador?"
+        },
+        {
+          "text": "como eu faço uma nfe?"
+        },
+        {
+          "text": "você sabe como fazer uma baixa? pode me ensinar?"
+        },
+        {
+          "text": "em que opção eu crio um titulo?"
+        },
+        {
+          "text": "em que opção do sistema eu faço um cadastro de veículos?"
+        },
+        {
+          "text": "me ensina a fazer uma a listagem de boletos?"
+        },
+        {
+          "text": "como crio um pedido?"
+        },
+        {
+          "text": "Cadastro de operadores"
+        },
+        {
+          "text": "Cadastro de Carta de correcao"
+        },
+        {
+          "text": "como crio um pedido"
+        },
+        {
+          "text": "em que opção eu crio um orçamento?"
+        },
+        {
+          "text": "como eu faço para emitir?"
+        },
+        {
+          "text": "quero saber como emitir"
+        },
+        {
+          "text": "como emito um NF-e?"
+        },
+        {
+          "text": "como cadastro um cte ?"
+        },
+        {
+          "text": "como cadastro um cte"
+        },
+        {
+          "text": "como faço um CONTROLE"
         }
       ],
       "description": "passo a passo de como fazer algo"
@@ -1001,34 +1019,34 @@
       "intent": "Opniao",
       "examples": [
         {
-          "text": "você não acha que o sistema é muito difícil ?"
-        },
-        {
-          "text": "o que você acha do sistema hádron?"
-        },
-        {
           "text": "está frio onde você está?"
         },
         {
-          "text": "como está isso?"
+          "text": "como está o clima?"
         },
         {
-          "text": "como está o calor aí?"
-        },
-        {
-          "text": "você achou aquilo bonito?"
-        },
-        {
-          "text": "o que achou da minha foto?"
-        },
-        {
-          "text": "eu sou bonito?"
+          "text": "você não acha que o sistema é muito difícil ?"
         },
         {
           "text": "você me acha burro?"
         },
         {
-          "text": "como está o clima?"
+          "text": "eu sou bonito?"
+        },
+        {
+          "text": "o que achou da minha foto?"
+        },
+        {
+          "text": "você achou aquilo bonito?"
+        },
+        {
+          "text": "como está o calor aí?"
+        },
+        {
+          "text": "como está isso?"
+        },
+        {
+          "text": "o que você acha do sistema hádron?"
         }
       ],
       "description": "Pedir opnião"
@@ -1040,22 +1058,16 @@
           "text": "troxa vagabundo !!!"
         },
         {
-          "text": "Vá se foder!"
+          "text": "vai tomarno cu"
         },
         {
-          "text": "odiei o atendimento"
+          "text": "vai te fuder"
         },
         {
-          "text": "Você é chato?"
+          "text": "Tchau, vagabunda."
         },
         {
           "text": "Você está me entediando."
-        },
-        {
-          "text": "Você é burro."
-        },
-        {
-          "text": "Vá para o inferno!"
         },
         {
           "text": "Você é uma piada?"
@@ -1073,25 +1085,10 @@
           "text": "Sua mãe."
         },
         {
-          "text": "Tchau, vagabunda."
-        },
-        {
           "text": "Todo mundo te odeia."
         },
         {
           "text": "Uma experiência horrível, com certeza!"
-        },
-        {
-          "text": "merda"
-        },
-        {
-          "text": "Vá para a puta que pariu!"
-        },
-        {
-          "text": "Você é ruim mesmo?"
-        },
-        {
-          "text": "Você não vale nada."
         },
         {
           "text": "Você é espertinho?"
@@ -1100,10 +1097,37 @@
           "text": "Você está fora de si?"
         },
         {
-          "text": "seu arrombado!!"
+          "text": "Você não vale nada."
+        },
+        {
+          "text": "Você é ruim mesmo?"
+        },
+        {
+          "text": "Vá para a puta que pariu!"
+        },
+        {
+          "text": "Vá para o inferno!"
+        },
+        {
+          "text": "Vá se foder!"
+        },
+        {
+          "text": "Você é chato?"
+        },
+        {
+          "text": "odiei o atendimento"
         },
         {
           "text": "seu arrombado"
+        },
+        {
+          "text": "seu arrombado!!"
+        },
+        {
+          "text": "merda"
+        },
+        {
+          "text": "Você é burro."
         }
       ],
       "description": "Expresse feedback desfavorável."
@@ -1115,10 +1139,10 @@
           "text": "minha nota não sai de processamento"
         },
         {
-          "text": "minha NF-e foi emitida mas não quer imprimir"
+          "text": "Minha impressora não está emitindo"
         },
         {
-          "text": "Minha impressora não está emitindo"
+          "text": "minha NF-e foi emitida mas não quer imprimir"
         }
       ],
       "description": "NF-e travada no processamento"
@@ -1127,25 +1151,31 @@
       "intent": "repetir_algo",
       "examples": [
         {
-          "text": "Pode tentar dizê-lo com mais clareza, por favor?"
-        },
-        {
           "text": "Eu não entendi bem o que você me disse."
         },
         {
           "text": "Eu não entendi."
         },
         {
-          "text": "Eu perdi a última parte. Poderia repetir?"
+          "text": "Me desculpe, uma vez mais."
         },
         {
           "text": "Eu preciso de mais informações."
         },
         {
-          "text": "Me desculpe, uma vez mais."
+          "text": "Como é?"
         },
         {
-          "text": "Suas informações estão confusas."
+          "text": "Desculpe! Poderia repetir mais uma vez?"
+        },
+        {
+          "text": "Diga isso novamente, por favor. Eu não ouvi."
+        },
+        {
+          "text": "O que você quer dizer com isso?"
+        },
+        {
+          "text": "O que você me deu não é exatamente o que estou procurando."
         },
         {
           "text": "Você não entendeu o que eu disse."
@@ -1154,10 +1184,19 @@
           "text": "Você não entendeu o que eu perguntei."
         },
         {
-          "text": "Acho que eu não fui claro."
+          "text": "Você pode repetir, por favor?"
         },
         {
-          "text": "Você pode repetir, por favor?"
+          "text": "Suas informações estão confusas."
+        },
+        {
+          "text": "Preciso que você repita a informação."
+        },
+        {
+          "text": "Pode tentar dizê-lo com mais clareza, por favor?"
+        },
+        {
+          "text": "Eu perdi a última parte. Poderia repetir?"
         },
         {
           "text": "Você não foi claro."
@@ -1175,25 +1214,10 @@
           "text": "pode me explica melhor?"
         },
         {
+          "text": "Acho que eu não fui claro."
+        },
+        {
           "text": "A sua informação não está clara."
-        },
-        {
-          "text": "Como é?"
-        },
-        {
-          "text": "Desculpe! Poderia repetir mais uma vez?"
-        },
-        {
-          "text": "Diga isso novamente, por favor. Eu não ouvi."
-        },
-        {
-          "text": "O que você me deu não é exatamente o que estou procurando."
-        },
-        {
-          "text": "O que você quer dizer com isso?"
-        },
-        {
-          "text": "Preciso que você repita a informação."
         }
       ],
       "description": "Repita ou esclareça a última declaração."
@@ -1202,7 +1226,13 @@
       "intent": "sem_certeza",
       "examples": [
         {
-          "text": "Desculpe por não conseguir te ajudar."
+          "text": "Eu não sei o que te deixará feliz."
+        },
+        {
+          "text": "Eu não sei do que você precisa."
+        },
+        {
+          "text": "Não tenho idéia."
         },
         {
           "text": "Você me pegou."
@@ -1214,55 +1244,49 @@
           "text": "O que você não me contaria?"
         },
         {
-          "text": "Desculpe não poder te ajudar com isso."
-        },
-        {
-          "text": "Não tenho certeza se entendo o que você está dizendo."
-        },
-        {
-          "text": "Não tenho a menor idéia."
-        },
-        {
-          "text": "Não sei se entendi o que você deseja."
-        },
-        {
-          "text": "Não sei a resposta para isso, me perdoe."
+          "text": "Não faço idéia."
         },
         {
           "text": "Não posso te ajudar, desculpe."
         },
         {
-          "text": "Não faço idéia."
+          "text": "Não sei a resposta para isso, me perdoe."
         },
         {
-          "text": "Me perdoe, mas não tenho uma resposta."
-        },
-        {
-          "text": "Me desculpe, mas não tenho uma resposta para sua pergunta."
-        },
-        {
-          "text": "Eu não tenho idéia, na verdade."
-        },
-        {
-          "text": "Eu não tenho idéia do que você está procurando."
-        },
-        {
-          "text": "Não tenho uma solução para isso."
-        },
-        {
-          "text": "Eu ainda não estou convencido."
+          "text": "Desculpe não poder te ajudar com isso."
         },
         {
           "text": "Eu não sei o que você deseja."
         },
         {
-          "text": "Eu não sei o que te deixará feliz."
+          "text": "Desculpe por não conseguir te ajudar."
         },
         {
-          "text": "Eu não sei do que você precisa."
+          "text": "Eu ainda não estou convencido."
         },
         {
-          "text": "Não tenho idéia."
+          "text": "Não tenho uma solução para isso."
+        },
+        {
+          "text": "Eu não tenho idéia do que você está procurando."
+        },
+        {
+          "text": "Eu não tenho idéia, na verdade."
+        },
+        {
+          "text": "Me desculpe, mas não tenho uma resposta para sua pergunta."
+        },
+        {
+          "text": "Me perdoe, mas não tenho uma resposta."
+        },
+        {
+          "text": "Não sei se entendi o que você deseja."
+        },
+        {
+          "text": "Não tenho a menor idéia."
+        },
+        {
+          "text": "Não tenho certeza se entendo o que você está dizendo."
         }
       ],
       "description": "Indique não haver uma resposta definitiva a uma pergunta."
@@ -1270,6 +1294,30 @@
     {
       "intent": "confirmar",
       "examples": [
+        {
+          "text": "Está muito bom."
+        },
+        {
+          "text": "Essa é a resposta certa."
+        },
+        {
+          "text": "Eu gostei disso."
+        },
+        {
+          "text": "É exatamente disso que preciso."
+        },
+        {
+          "text": "Isso está certo."
+        },
+        {
+          "text": "Nós precisamos exatamente disso."
+        },
+        {
+          "text": "Sim, é isso!"
+        },
+        {
+          "text": "tabom"
+        },
         {
           "text": "Muito bem. Vamos fazê-lo."
         },
@@ -1311,27 +1359,6 @@
         },
         {
           "text": "Essa é a resposta apropriada."
-        },
-        {
-          "text": "Essa é a resposta certa."
-        },
-        {
-          "text": "Está muito bom."
-        },
-        {
-          "text": "Eu gostei disso."
-        },
-        {
-          "text": "É exatamente disso que preciso."
-        },
-        {
-          "text": "Isso está certo."
-        },
-        {
-          "text": "Sim, é isso!"
-        },
-        {
-          "text": "Nós precisamos exatamente disso."
         }
       ],
       "description": "Confirme que a resposta satisfaz uma pergunta."
@@ -1367,7 +1394,8 @@
           "synonyms": [
             "NF-e",
             "nota fiscal eletronica",
-            "nfe"
+            "nfe",
+            "NF"
           ]
         },
         {
@@ -1376,7 +1404,8 @@
           "synonyms": [
             "CT-e",
             "cte",
-            "conhecimento"
+            "conhecimento",
+            "CONTROLE"
           ]
         }
       ],
@@ -1387,31 +1416,9 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "dia",
-          "synonyms": [
-            "dia",
-            "manhã"
-          ]
-        },
-        {
-          "type": "synonyms",
           "value": "frio",
           "synonyms": [
             "frio"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "calor",
-          "synonyms": [
-            "calor"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "noite",
-          "synonyms": [
-            "noite"
           ]
         },
         {
@@ -1424,6 +1431,28 @@
             "está gelado",
             "está ventando",
             "clima"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "noite",
+          "synonyms": [
+            "noite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "calor",
+          "synonyms": [
+            "calor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dia",
+          "synonyms": [
+            "dia",
+            "manhã"
           ]
         }
       ],
@@ -1439,6 +1468,15 @@
         },
         {
           "type": "synonyms",
+          "value": "reboque",
+          "synonyms": [
+            "atrelado",
+            "reboque",
+            "trailer"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "renavam",
           "synonyms": []
         },
@@ -1449,15 +1487,6 @@
             "motor",
             "tração",
             "parte que puxa o caminhão"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "reboque",
-          "synonyms": [
-            "atrelado",
-            "reboque",
-            "trailer"
           ]
         }
       ],
@@ -1470,16 +1499,6 @@
     {
       "entity": "procion",
       "values": [
-        {
-          "type": "synonyms",
-          "value": "software",
-          "synonyms": [
-            "hadron",
-            "sistema",
-            "terminal",
-            "erp"
-          ]
-        },
         {
           "type": "synonyms",
           "value": "terminal",
@@ -1495,6 +1514,14 @@
         },
         {
           "type": "synonyms",
+          "value": "empresa",
+          "synonyms": [
+            "procion",
+            "procion sistemas"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "telefone",
           "synonyms": [
             "(19) 3342-6730"
@@ -1502,10 +1529,12 @@
         },
         {
           "type": "synonyms",
-          "value": "empresa",
+          "value": "software",
           "synonyms": [
-            "procion",
-            "procion sistemas"
+            "hadron",
+            "sistema",
+            "terminal",
+            "erp"
           ]
         }
       ],
@@ -1520,18 +1549,17 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "3124",
+          "value": "2154",
           "synonyms": [
-            "ordem de compra",
-            "cadastro de ordem de compra"
+            "Eventos de Manifestos"
           ]
         },
         {
           "type": "synonyms",
-          "value": "3122",
+          "value": "4116",
           "synonyms": [
-            "selecionar requisição",
-            "escolher requisição"
+            "cheque emitidos",
+            "controle de cheques"
           ]
         },
         {
@@ -1545,94 +1573,164 @@
         },
         {
           "type": "synonyms",
-          "value": "4116",
+          "value": "3122",
           "synonyms": [
-            "cheque emitidos",
-            "controle de cheques"
+            "selecionar requisição",
+            "escolher requisição"
           ]
         },
         {
           "type": "synonyms",
-          "value": "2154",
+          "value": "3124",
           "synonyms": [
-            "Eventos de Manifestos"
+            "ordem de compra",
+            "cadastro de ordem de compra"
           ]
         },
         {
           "type": "synonyms",
-          "value": "1215",
+          "value": "3126",
           "synonyms": [
-            "Cadastro de Representantes"
+            "verificar que venceu a cotação de preços",
+            "escolher quem vendeu mais baixo"
           ]
         },
         {
           "type": "synonyms",
-          "value": "1271",
+          "value": "3125",
           "synonyms": [
-            "Cadastro de Locais"
+            "cotação de preços",
+            "cotar preços",
+            "comparar preços"
           ]
         },
         {
           "type": "synonyms",
-          "value": "2230",
+          "value": "3129",
           "synonyms": [
-            "Cancelamento de Notas Fiscais",
-            "cancela NF-e",
-            "cancelar nota"
+            "aprovar ordem de compra",
+            "aceitar 3124",
+            "mandar comprar o material solicitado"
           ]
         },
         {
           "type": "synonyms",
-          "value": "2250",
+          "value": "3141",
           "synonyms": [
-            "Carta de Correção",
-            "corrigir NF-e",
-            "corrigir documento emitido"
+            "Emitir ordem de compra",
+            "imprimir ordem de compra",
+            "folha de ordem de compra"
           ]
         },
         {
           "type": "synonyms",
-          "value": "2134",
+          "value": "3143",
           "synonyms": [
-            "Listagem de pedidos",
-            "listar numeros de pedido",
-            "visualizar os pedidos",
-            "listar vendas não feitas"
+            "cancelar ordem de compra",
+            "excluir uma ordem de compra",
+            "tirar ordem de compra de dentro do sistema",
+            "apagar ordem de compra do sistema"
           ]
         },
         {
           "type": "synonyms",
-          "value": "4113",
+          "value": "7512",
           "synonyms": [
-            "aplicações",
-            "empréstimo"
+            "cadastro de orçamento",
+            "criar um orc",
+            "criar orçamento",
+            "orçamento?"
           ]
         },
         {
           "type": "synonyms",
-          "value": "4112",
+          "value": "5111",
           "synonyms": [
-            "movimentação de local",
-            "movimentação de banco",
-            "mover para o banco",
-            "mover para o caixa"
+            "Criar estoque",
+            "Novo Estoque",
+            "criar um estoque novo"
           ]
         },
         {
           "type": "synonyms",
-          "value": "1232",
+          "value": "5112",
           "synonyms": [
-            "Cadastro de Produtos"
+            "mover produto para estoque",
+            "movimentar estoque",
+            "mover saldo de produto"
           ]
         },
         {
           "type": "synonyms",
-          "value": "2139",
+          "value": "4311",
           "synonyms": [
-            "Notas emitidas",
-            "visualizador de NF-es",
-            "visualizar NF-e emitida",
-            "enviar e-mail para cliente"
+            "Titulo de Pagamentos",
+            "Criar dívida"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4313",
+          "synonyms": [
+            "baixa por fornecedor",
+            "baixar titulo pelo fornecedor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4312",
+          "synonyms": [
+            "Baixa de divida a pagar",
+            "baixar conta a pagar",
+            "baixar titulo devedor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4212",
+          "synonyms": [
+            "baixar conta a receber",
+            "baixar titulo do cliente devedor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4211",
+          "synonyms": [
+            "criar titulo do cliente devedor",
+            "cadastrar titulo de venda",
+            "criar titulo de conta a receber"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7311",
+          "synonyms": [
+            "cadastro de modelos de veiculos",
+            "tipos de veiculos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7318",
+          "synonyms": [
+            "tabela de frete",
+            "cadastro de fretes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1116",
+          "synonyms": [
+            "Cadastro de Operadores"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7332",
+          "synonyms": [
+            "ordem de carga",
+            "minuta de conhecimento"
           ]
         },
         {
@@ -1641,7 +1739,54 @@
           "synonyms": [
             "pedido",
             "2131",
-            "Cadastro de pedidos"
+            "Cadastro de pedidos",
+            "emito um NF-e?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7331",
+          "synonyms": [
+            "emissão CT-e",
+            "emissão de conhecimentos",
+            "emissão de mdfe",
+            "emitir um cte",
+            "emito um cte?",
+            "cadastro um cte"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7341",
+          "synonyms": [
+            "elaborados de cte",
+            "relatórios de CT-e",
+            "listagens de cte"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2153",
+          "synonyms": [
+            "criar carga",
+            "montar carga",
+            "montagem de cargas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7312",
+          "synonyms": [
+            "Cadastro de Veículos",
+            "1217"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1217",
+          "synonyms": [
+            "Cadastro de Veículos",
+            "7312"
           ]
         },
         {
@@ -1667,193 +1812,79 @@
         },
         {
           "type": "synonyms",
-          "value": "1217",
+          "value": "2139",
           "synonyms": [
-            "Cadastro de Veículos",
-            "7312"
+            "Notas emitidas",
+            "visualizador de NF-es",
+            "visualizar NF-e emitida",
+            "enviar e-mail para cliente"
           ]
         },
         {
           "type": "synonyms",
-          "value": "7312",
+          "value": "1232",
           "synonyms": [
-            "Cadastro de Veículos",
-            "1217"
+            "Cadastro de Produtos"
           ]
         },
         {
           "type": "synonyms",
-          "value": "7341",
+          "value": "4112",
           "synonyms": [
-            "elaborados de cte",
-            "relatórios de CT-e",
-            "listagens de cte"
+            "movimentação de local",
+            "movimentação de banco",
+            "mover para o banco",
+            "mover para o caixa"
           ]
         },
         {
           "type": "synonyms",
-          "value": "2153",
+          "value": "4113",
           "synonyms": [
-            "criar carga",
-            "montar carga",
-            "montagem de cargas"
+            "aplicações",
+            "empréstimo"
           ]
         },
         {
           "type": "synonyms",
-          "value": "1116",
+          "value": "2134",
           "synonyms": [
-            "Cadastro de Operadores"
+            "Listagem de pedidos",
+            "listar numeros de pedido",
+            "visualizar os pedidos",
+            "listar vendas não feitas"
           ]
         },
         {
           "type": "synonyms",
-          "value": "7331",
+          "value": "2250",
           "synonyms": [
-            "emissão CT-e",
-            "emissão de conhecimentos",
-            "emissão de mdfe",
-            "emitir um cte",
-            "emito um cte?"
+            "Carta de Correção",
+            "corrigir NF-e",
+            "corrigir documento emitido"
           ]
         },
         {
           "type": "synonyms",
-          "value": "7332",
+          "value": "2230",
           "synonyms": [
-            "ordem de carga",
-            "minuta de conhecimento"
+            "Cancelamento de Notas Fiscais",
+            "cancela NF-e",
+            "cancelar nota"
           ]
         },
         {
           "type": "synonyms",
-          "value": "7318",
+          "value": "1271",
           "synonyms": [
-            "tabela de frete",
-            "cadastro de fretes"
+            "Cadastro de Locais"
           ]
         },
         {
           "type": "synonyms",
-          "value": "7311",
+          "value": "1215",
           "synonyms": [
-            "cadastro de modelos de veiculos",
-            "tipos de veiculos"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "4211",
-          "synonyms": [
-            "criar titulo do cliente devedor",
-            "cadastrar titulo de venda",
-            "criar titulo de conta a receber"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "4212",
-          "synonyms": [
-            "baixar conta a receber",
-            "baixar titulo do cliente devedor"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "4312",
-          "synonyms": [
-            "Baixa de divida a pagar",
-            "baixar conta a pagar",
-            "baixar titulo devedor"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "4313",
-          "synonyms": [
-            "baixa por fornecedor",
-            "baixar titulo pelo fornecedor"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "4311",
-          "synonyms": [
-            "Titulo de Pagamentos",
-            "Criar dívida"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "5112",
-          "synonyms": [
-            "mover produto para estoque",
-            "movimentar estoque",
-            "mover saldo de produto"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "5111",
-          "synonyms": [
-            "Criar estoque",
-            "Novo Estoque",
-            "criar um estoque novo"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "7512",
-          "synonyms": [
-            "cadastro de orçamento",
-            "criar um orc",
-            "criar orçamento",
-            "orçamento?"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "3143",
-          "synonyms": [
-            "cancelar ordem de compra",
-            "excluir uma ordem de compra",
-            "tirar ordem de compra de dentro do sistema",
-            "apagar ordem de compra do sistema"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "3141",
-          "synonyms": [
-            "Emitir ordem de compra",
-            "imprimir ordem de compra",
-            "folha de ordem de compra"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "3129",
-          "synonyms": [
-            "aprovar ordem de compra",
-            "aceitar 3124",
-            "mandar comprar o material solicitado"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "3125",
-          "synonyms": [
-            "cotação de preços",
-            "cotar preços",
-            "comparar preços"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "3126",
-          "synonyms": [
-            "verificar que venceu a cotação de preços",
-            "escolher quem vendeu mais baixo"
+            "Cadastro de Representantes"
           ]
         }
       ],
@@ -1896,102 +1927,9 @@
       "values": [
         {
           "type": "patterns",
-          "value": "202",
+          "value": "203",
           "patterns": [
-            "Falha no reconhecimento da autoria ou integridade do arquivo digital"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "201",
-          "patterns": [
-            "Número máximo de numeração a inutilizar ultrapassou o limite"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "231",
-          "patterns": [
-            "IE do emitente não vinculada ao CNPJ"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "ponte",
-          "patterns": [
-            "Falha na chamada da DLL ponte",
-            "Erro 9999- UTI-89"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "208",
-          "patterns": [
-            "CNPJ do destinatário inválido"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "207",
-          "patterns": [
-            "CNPJ do emitente invalido."
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "209",
-          "patterns": [
-            "IE do emitente inválida"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "5005",
-          "patterns": [
-            "Falha de comunicação com a SEFAZ em decorrência de problemas na SEFAZ."
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "canais_seguros",
-          "patterns": [
-            "Erro de suporte a canal seguro"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "RNTRC",
-          "patterns": [
-            "RNTRC deve estar associado ao transportador indicado.",
-            "rejeição 687"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "TSL1.2",
-          "patterns": [
-            "A conexão com o servidor foi reconfigurada"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "PHAD000.dll",
-          "patterns": [
-            "ERRO AO INICIALIZAR PHAD0000.DLL"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "531",
-          "patterns": [
-            "Total da BC ICMS difere do somatório dos itens"
-          ]
-        },
-        {
-          "type": "patterns",
-          "value": "533",
-          "patterns": [
-            "Total da BC ICMS-ST difere do somatório dos itens"
+            "Emissor não habilitado para emissão de NF-e"
           ]
         },
         {
@@ -2073,9 +2011,102 @@
         },
         {
           "type": "patterns",
-          "value": "203",
+          "value": "533",
           "patterns": [
-            "Emissor não habilitado para emissão de NF-e"
+            "Total da BC ICMS-ST difere do somatório dos itens"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "531",
+          "patterns": [
+            "Total da BC ICMS difere do somatório dos itens"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "PHAD000.dll",
+          "patterns": [
+            "ERRO AO INICIALIZAR PHAD0000.DLL"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "TSL1.2",
+          "patterns": [
+            "A conexão com o servidor foi reconfigurada"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "RNTRC",
+          "patterns": [
+            "RNTRC deve estar associado ao transportador indicado.",
+            "rejeição 687"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "canais_seguros",
+          "patterns": [
+            "Erro de suporte a canal seguro"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "5005",
+          "patterns": [
+            "Falha de comunicação com a SEFAZ em decorrência de problemas na SEFAZ."
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "209",
+          "patterns": [
+            "IE do emitente inválida"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "207",
+          "patterns": [
+            "CNPJ do emitente invalido."
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "208",
+          "patterns": [
+            "CNPJ do destinatário inválido"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "ponte",
+          "patterns": [
+            "Falha na chamada da DLL ponte",
+            "Erro 9999- UTI-89"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "231",
+          "patterns": [
+            "IE do emitente não vinculada ao CNPJ"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "201",
+          "patterns": [
+            "Número máximo de numeração a inutilizar ultrapassou o limite"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "202",
+          "patterns": [
+            "Falha no reconhecimento da autoria ou integridade do arquivo digital"
           ]
         }
       ],
@@ -2086,37 +2117,21 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Dados_recebedor",
+          "value": "Carga",
           "synonyms": [
-            "dados recebedor",
-            "dados do recebedor"
+            "manifesto",
+            "numero da carga",
+            "codigo do manifesto",
+            "numeração da carga",
+            "Manifesto(carga)"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Motorista",
+          "value": "Dados_destino",
           "synonyms": [
-            "quem dirige",
-            "motorista"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Proprietario",
-          "synonyms": [
-            "Proprietario",
-            "dono do automovel",
-            "dono do veiculo",
-            "Pessoa vinculada ao RNTRC do veiculo"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Transportador",
-          "synonyms": [
-            "veiculos",
-            "proprietario",
-            "motorista"
+            "Dados do destino",
+            "Dados destino"
           ]
         },
         {
@@ -2132,61 +2147,208 @@
         },
         {
           "type": "synonyms",
-          "value": "Dados_destino",
+          "value": "Transportador",
           "synonyms": [
-            "Dados do destino",
-            "Dados destino"
+            "veiculos",
+            "proprietario",
+            "motorista"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Dados_origem",
+          "value": "Proprietario",
           "synonyms": [
-            "dados da origem",
-            "dados origem"
+            "Proprietario",
+            "dono do automovel",
+            "dono do veiculo",
+            "Pessoa vinculada ao RNTRC do veiculo"
           ]
         },
         {
           "type": "synonyms",
-          "value": "tomador",
+          "value": "Motorista",
+          "synonyms": [
+            "quem dirige",
+            "motorista"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "qntvol",
+          "synonyms": [
+            "quantidade de volumes",
+            "qtd. volumes",
+            "qtd volume",
+            "quantidade volumes",
+            "volumes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dados_tomador",
+          "synonyms": [
+            "tomador",
+            "dados do tomador"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chavenfe",
+          "synonyms": [
+            "chave de acesso",
+            "chave de referencia a nfe",
+            "numero de acesso a nota",
+            "chave da nota",
+            "chave da nf",
+            "chave da nfe",
+            "chave do documento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pesobruto",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Dados_expedidor",
-          "synonyms": [
-            "Dados do expedidor",
-            "Dados expedidor"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Dados_destinatario",
-          "synonyms": [
-            "Dados do destinatario",
-            "dados destinatario"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "dados_remetente",
-          "synonyms": [
-            "campo do remetente",
-            "Dados Remetente"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "complemento",
+          "value": "pesobase",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "serie",
+          "value": "lacres",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "frete",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "transacao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "seguro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Seguradora",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Apolice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Averbação",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VlrAverbacao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Finalidade",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Responsável",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DatadeSaida",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Juropmes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Observacoes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Comprovante",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fornecedor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ValePedagio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cobr",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CondPag",
           "synonyms": [
-            "serie",
-            "001",
-            "002"
+            "Condição de pagamento",
+            "cond. pgto",
+            "condição pgto",
+            "cond pagamento",
+            "cond pgto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "modelonf",
+          "synonyms": [
+            "modelo nf",
+            "modelo da nota",
+            "modelo nf-e",
+            "modelo de nf?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tipo_cte",
+          "synonyms": [
+            "normal",
+            "complemento",
+            "tipo CT-e",
+            "tido de cte"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tipo_mdfe",
+          "synonyms": [
+            "fracionado",
+            "simples",
+            "multiplos destinatarios",
+            "globalizado",
+            "tipo de MDF-e",
+            "tipo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tipo_cliente",
+          "synonyms": [
+            "tipo de cliente",
+            "campo tipo do cliente",
+            "tipo cliente"
           ]
         },
         {
@@ -2202,33 +2364,59 @@
         },
         {
           "type": "synonyms",
-          "value": "tipo_cliente",
+          "value": "serie",
           "synonyms": [
-            "tipo de cliente",
-            "campo tipo do cliente",
-            "tipo cliente"
+            "serie",
+            "001",
+            "002"
           ]
         },
         {
           "type": "synonyms",
-          "value": "tipo_mdfe",
+          "value": "complemento",
           "synonyms": [
-            "simples",
-            "fracionado",
-            "multiplos destinatarios",
-            "globalizado",
-            "tipo de MDF-e",
-            "tipo"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "tipo_cte",
-          "synonyms": [
-            "normal",
             "complemento",
-            "tipo CT-e",
-            "tido de cte"
+            "complementar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dados_remetente",
+          "synonyms": [
+            "campo do remetente",
+            "Dados Remetente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dados_destinatario",
+          "synonyms": [
+            "Dados do destinatario",
+            "dados destinatario"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dados_expedidor",
+          "synonyms": [
+            "Dados do expedidor",
+            "Dados expedidor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dados_recebedor",
+          "synonyms": [
+            "dados recebedor",
+            "dados do recebedor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dados_origem",
+          "synonyms": [
+            "dados da origem",
+            "dados origem"
           ]
         }
       ],
@@ -2249,12 +2437,15 @@
         },
         {
           "type": "synonyms",
-          "value": "certisign",
-          "synonyms": []
+          "value": "cert_arquivo",
+          "synonyms": [
+            "arquivo",
+            "A1"
+          ]
         },
         {
           "type": "synonyms",
-          "value": "marca",
+          "value": "serasa",
           "synonyms": []
         },
         {
@@ -2268,15 +2459,12 @@
         },
         {
           "type": "synonyms",
-          "value": "cert_arquivo",
-          "synonyms": [
-            "arquivo",
-            "A1"
-          ]
+          "value": "certisign",
+          "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "serasa",
+          "value": "marca",
           "synonyms": []
         }
       ],
@@ -2291,19 +2479,19 @@
       "values": [
         {
           "type": "synonyms",
+          "value": "phadnfg",
+          "synonyms": [
+            "gerenciador de NF-e",
+            "phadnfg.exe"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "phadnfl",
           "synonyms": [
             "gerenciador de impressão",
             "impressão de NF-e",
             "phadnfl.exe"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "phadnfg",
-          "synonyms": [
-            "gerenciador de NF-e",
-            "phadnfg.exe"
           ]
         }
       ],
@@ -2318,10 +2506,10 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "emitente",
+          "value": "remetente",
           "synonyms": [
-            "quem emite",
-            "dono da nota"
+            "quem envia",
+            "remetente"
           ]
         },
         {
@@ -2335,10 +2523,10 @@
         },
         {
           "type": "synonyms",
-          "value": "remetente",
+          "value": "emitente",
           "synonyms": [
-            "quem envia",
-            "remetente"
+            "quem emite",
+            "dono da nota"
           ]
         }
       ],
@@ -2522,6 +2710,33 @@
       "dialog_node": "node_7_1561471289976"
     },
     {
+      "type": "standard",
+      "title": "Pedir para ir passando",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, então por favor vá preenchendo os campos, e me perguntando sobre os campos que tiver dúvida.\n"
+              },
+              {
+                "text": "Certo, então faremos assim... Você preenche de acordo com a legenda, e qualquer duvida sobre algum campo, você me pergunta sobre o campo, ok?"
+              },
+              {
+                "text": "Legal, então vamos trabalha assim...você preenche os campos seguindo as legendas, quando tiver dúvida sobre algum campo, você me pergunta, beleza?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1565382666226",
+      "metadata": {},
+      "conditions": "#positivo ||  #confirmar || #concluido",
+      "dialog_node": "node_1_1564755344459"
+    },
+    {
       "type": "slot",
       "parent": "node_4_1563902760789",
       "dialog_node": "slot_2_1564160986287",
@@ -2622,35 +2837,14 @@
     },
     {
       "type": "standard",
-      "title": "Não entendeu",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ih não buguei nessa ultima parte, vamos voltar....lembre-se sou um robô."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_11_1564666029183",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_11_1564666029183"
-      },
-      "conditions": "anything_else",
-      "dialog_node": "node_9_1565017303892",
-      "previous_sibling": "node_15_1564668980581"
-    },
-    {
-      "type": "standard",
       "title": "Legendas",
       "output": {
         "generic": [
+          {
+            "title": "legenda exemplo",
+            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/legenda7331.png",
+            "response_type": "image"
+          },
           {
             "values": [
               {
@@ -2659,11 +2853,6 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "legenda do campo CONTROLE",
-            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/legenda7331.png",
-            "response_type": "image"
           },
           {
             "values": [
@@ -2678,14 +2867,14 @@
       },
       "parent": "node_11_1564666029183",
       "metadata": {},
-      "conditions": "#positivo || #confirmar",
+      "conditions": "#positivo ||  #confirmar || #concluido",
       "dialog_node": "node_15_1564668980581"
     },
     {
       "type": "standard",
       "title": "Se dizer ok",
       "parent": "node_1_1564755344459",
-      "conditions": "#confirmar || #positivo",
+      "conditions": "#confirmar ||  #positivo || #concluido",
       "dialog_node": "node_2_1565275684952"
     },
     {
@@ -2710,6 +2899,26 @@
       "metadata": {},
       "dialog_node": "node_7_1564077342063",
       "previous_sibling": "node_6_1564077064242"
+    },
+    {
+      "type": "standard",
+      "title": "HADRON",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1563894098477",
+      "dialog_node": "node_7_1565637506602",
+      "previous_sibling": "node_17_1564078530895"
     },
     {
       "type": "folder",
@@ -2744,6 +2953,82 @@
     },
     {
       "type": "standard",
+      "title": "Unidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O lacre em transportes são usado como medidas adicionais de segurança, se sua transportadora usa lacres nas mercadorias, você poderá inserir o código do lacre nesse campo. \n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1565185863551",
+      "conditions": "#campos && @campos:lacres",
+      "dialog_node": "node_4_1565380734847",
+      "previous_sibling": "node_4_1565380491515"
+    },
+    {
+      "type": "standard",
+      "title": "Peso Base Calc",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nesse campo insira o peso que será usado para calcular o valor do transporte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1565185863551",
+      "conditions": "#campos && @campos:pesobase",
+      "dialog_node": "node_4_1565380491515",
+      "previous_sibling": "node_9_1565351539836"
+    },
+    {
+      "type": "standard",
+      "title": "Campo Manifesto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No campo da Manifesto(carga) você usará o código referenciando a carga desse transporte.\n- Você poderá usar a tecla F3 para criar uma nova ou ...."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "montar uma carga manualmente na opção de 'Montagem de Cargas' e vincular essa carga ao transporte na opção 'Acerto de Cargas'."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1565185863551",
+      "conditions": "#campos && @campos:Carga",
+      "dialog_node": "node_9_1565351539836",
+      "previous_sibling": "node_10_1565284339239"
+    },
+    {
+      "type": "standard",
       "title": "Tipo MDF-e",
       "output": {
         "generic": [
@@ -2757,18 +3042,14 @@
             "selection_policy": "sequential"
           },
           {
-            "values": [
-              {
-                "text": "O tipo Simples deve ser usado em casos de transporte de carga com apenas um conhecimento."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
+            "title": "Tipo de transporte",
+            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/tipo_mdfe.PNG",
+            "response_type": "image"
           },
           {
             "values": [
               {
-                "text": "O tipo Fracionado deve ser usado quando há mais de um conhecimento para o mesmo veículo."
+                "text": "O tipo Simples deve ser usado em casos de transporte de carga com apenas um conhecimento.\n\nO tipo Fracionado deve ser usado quando há mais de um conhecimento para o mesmo veículo."
               }
             ],
             "response_type": "text",
@@ -2801,9 +3082,40 @@
     },
     {
       "type": "standard",
+      "title": "Seguro",
+      "output": {
+        "generic": [
+          {
+            "title": "apolice",
+            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/Campo_Apolice.PNG",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "No seguro, a apólice  é um contrato entre a seguradora e o segurado\nSe o transportador tiver, você deve inserir o código do documento nesse campo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1565185863551",
+      "conditions": "#campos && @campos:Apolice",
+      "dialog_node": "node_6_1565628433595",
+      "previous_sibling": "node_5_1565381860004"
+    },
+    {
+      "type": "standard",
       "title": "Tomador",
       "output": {
         "generic": [
+          {
+            "title": "Campo Tomador",
+            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/campo_tomador.PNG",
+            "response_type": "image"
+          },
           {
             "values": [
               {
@@ -2816,7 +3128,7 @@
           {
             "values": [
               {
-                "text": "Para preencher o campo do tomador, pressione a tecla F3 com cursor já no campo"
+                "text": "Para preencher o campo do tomador,\n-Pressione a tecla F3 com cursor já no campo\n-Escreva escreva o nome do tomador \n-Clique ENTER, e selecione o terceiro desejado."
               }
             ],
             "response_type": "text",
@@ -2825,7 +3137,7 @@
         ]
       },
       "parent": "node_5_1565185863551",
-      "conditions": "#campos && @campos:tomador",
+      "conditions": "#campos && @campos:Dados_tomador",
       "dialog_node": "node_10_1565284339239",
       "previous_sibling": "node_6_1565271317573"
     },
@@ -2837,7 +3149,7 @@
           {
             "values": [
               {
-                "text": "O campo complemento deve ser usado apenas se o campo 'tipo CT-e', estiver como complemento.\nEsse complemento seria um acréscimo de informação sobre um CT-e já emitido."
+                "text": "O código de complemento deve ser usado apenas se o campo 'tipo CT-e', estiver como complemento.\nEsse complemento seria um acréscimo de informação sobre um outro CT-e já emitido.\n\n"
               }
             ],
             "response_type": "text",
@@ -2856,6 +3168,11 @@
       "output": {
         "generic": [
           {
+            "title": "Tipo CT-e",
+            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/tipo_cte.PNG",
+            "response_type": "image"
+          },
+          {
             "values": [
               {
                 "text": "O campo 'tipo ct-e' se refere função do CT-e a ser emitido, se for um CT-e referenciando um transporte, então deve ser do tipo normal.\nSe for um CT-e acrescentando informações sobre outro CT-e, então deve ser usado o tipo complemento."
@@ -2873,13 +3190,34 @@
     },
     {
       "type": "standard",
+      "title": "Frete",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O campo frete irá puxar um padrão pré-definido de características para o transporte. \n\nPara usá-lo deve ter uma tabela de fretes previamente cadastrada na opção 'Cadastro de Fretes'."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1565185863551",
+      "conditions": "#campos && @campos:frete",
+      "dialog_node": "node_5_1565381860004",
+      "previous_sibling": "node_4_1565380734847"
+    },
+    {
+      "type": "standard",
       "title": "Motorista",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Nesse campo você deve usar o Motorista que irá fazer esse transporte,  o motorista deve já  estar cadastrado no sistema."
+                "text": "Nesse campo você deve usar o Motorista do veiculo usado no transporte,  o motorista deve já  estar cadastrado na opção 'Cadastro de Terceiros'."
               }
             ],
             "response_type": "text",
@@ -3110,37 +3448,6 @@
     },
     {
       "type": "standard",
-      "title": "NF",
-      "output": {
-        "generic": []
-      },
-      "parent": "node_9_1565024618834",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_3_1563973485276"
-      },
-      "conditions": "@docs_fiscais:nota",
-      "dialog_node": "node_2_1565024836380",
-      "previous_sibling": "node_1_1565024767653"
-    },
-    {
-      "type": "standard",
-      "title": "CTE",
-      "output": {
-        "generic": []
-      },
-      "parent": "node_9_1565024618834",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1564659278013"
-      },
-      "conditions": "@docs_fiscais:cte",
-      "dialog_node": "node_1_1565024767653"
-    },
-    {
-      "type": "standard",
       "title": "Ir em Conteudo",
       "output": {
         "generic": [
@@ -3170,6 +3477,55 @@
       "parent": "slot_2_1564160986287",
       "event_name": "input",
       "dialog_node": "handler_3_1564160986287"
+    },
+    {
+      "type": "standard",
+      "title": "Incluir",
+      "output": {
+        "generic": [
+          {
+            "title": "icone incluir",
+            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/incluir.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Já com a opção aberta, clique no ícone incluir "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Assim será  criado um novo código.\nEste código é a identificação do seu documento no sistema Hádron."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 10,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Use a tecla ENTER para mover entre os campos da opção...\nagora mova para o próximo campo\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1565637506602",
+      "metadata": {},
+      "conditions": "",
+      "dialog_node": "node_11_1564666029183"
     },
     {
       "type": "standard",
@@ -3422,9 +3778,18 @@
     },
     {
       "type": "folder",
+      "title": "HADRON",
       "parent": "node_8_1565185808970",
+      "conditions": "",
       "dialog_node": "node_8_1565185887488",
       "previous_sibling": "node_5_1565185863551"
+    },
+    {
+      "type": "standard",
+      "title": "FATURAMENTO",
+      "parent": "node_8_1565185808970",
+      "dialog_node": "node_3_1565635806621",
+      "previous_sibling": "node_8_1565185887488"
     },
     {
       "type": "folder",
@@ -3739,6 +4104,27 @@
     },
     {
       "type": "standard",
+      "title": "Lacres",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os lacres de segurança possuem um papel fundamental para o funcionamento, a segurança e a saúde na sociedade. Eles são uma garantia de que um produto não foi usado, modificado, alterado, violado ou contaminado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1564077450913",
+      "conditions": "#campos && @campos:lacres",
+      "dialog_node": "node_3_1565381591311",
+      "previous_sibling": "node_1_1564595955967"
+    },
+    {
+      "type": "standard",
       "title": "Remetente",
       "output": {
         "generic": [
@@ -3925,16 +4311,21 @@
           {
             "values": [
               {
-                "text": "A PRÓCION é uma empresa de ERP, que tem por objetivo o desenvolvimento de sistemas computacionais de apoio a metodologias de organização empresarial e controles agropecuários."
+                "text": "A PRÓCION é uma empresa de ERP, que tem por objetivo o desenvolvimento de sistemas computacionais de apoio a metodologias de organização empresarial."
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
           },
           {
+            "title": "prócion",
+            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/logo.png",
+            "response_type": "image"
+          },
+          {
             "values": [
               {
-                "text": "Prócion é a estrela mais brilhante da constelação de Cão Menor e a nona estrela mais brilhante do firmamento."
+                "text": "Como pode ver, a logo da empresa Prócion é uma estrela.\nPrócion também é a estrela mais brilhante da constelação de Cão Menor e a nona estrela mais brilhante do firmamento.\n"
               }
             ],
             "response_type": "text",
@@ -4256,6 +4647,187 @@
       "metadata": {},
       "conditions": "#ja_fiz_isso || #positivo",
       "dialog_node": "node_10_1563819548129"
+    },
+    {
+      "type": "standard",
+      "title": "Quantidade de Volumes",
+      "output": {
+        "generic": [
+          {
+            "title": "quantidade de volumes",
+            "source": "https://github.com/Procion-Sistemas/WATSON/blob/master/imags/campo_qntvlo.PNG?raw=true",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "No campo de quantidades de volumes, você irá colocar a somatória de itens que serão inseridos na transação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1565185887488",
+      "conditions": "#campos && @campos:qntvol",
+      "dialog_node": "node_6_1565361624536",
+      "previous_sibling": "node_4_1565634868013"
+    },
+    {
+      "type": "standard",
+      "title": "Peso Bruto",
+      "output": {
+        "generic": [
+          {
+            "title": "Campo peso bruto",
+            "source": "https://github.com/Procion-Sistemas/WATSON/blob/master/imags/campo_pesobruto.PNG?raw=true",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "No campo de peso bruto, você deve informar o peso total da carga, ou seja, deve incluir no somatório o empacotamento, embalagens etc...\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1565185887488",
+      "conditions": "#campos && @campos:pesobruto",
+      "dialog_node": "node_9_1565380044593",
+      "previous_sibling": "node_1_1565382393144"
+    },
+    {
+      "type": "standard",
+      "title": "Modelo Nota",
+      "output": {
+        "generic": [
+          {
+            "title": "Modelo de NF",
+            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/campo_modelonfe.PNG",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "No campo Modelo da NF,  estará o tipo de NF-e que o transporte está referenciando.\nSe esse transporte não for referenciar nenhuma nota use modelo 99,\nCaso contrário, apenas insira a chave da NF-e no campo ao lado...assim o sistema irá identificar automaticamente o modelo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1565185887488",
+      "conditions": "#campos && @campos:modelonf",
+      "dialog_node": "node_9_1565357106891",
+      "previous_sibling": "node_1_1565357534489"
+    },
+    {
+      "type": "standard",
+      "title": "Tipo cliente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O cliente é analisado pela SEFAZ de maneiras diferentes, baseando-se na finalidade da compra de um produto ou serviço.\nPara ver os possíveis tipos de cliente, você deve selecionar o campo como na imagem."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "exemplo",
+            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/tipo_cliente.PNG",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Abrirá varias opções para selecionar, clique na mais indicada ao cliente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1565185887488",
+      "conditions": "#campos && @campos:tipo_cliente",
+      "dialog_node": "node_4_1565634868013",
+      "previous_sibling": "node_9_1565380044593"
+    },
+    {
+      "type": "standard",
+      "title": "Chave Da NF-e",
+      "output": {
+        "generic": [
+          {
+            "title": "chave",
+            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/campo_chavenfe.PNG",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Esse campo só é usado em transações em que é necessário referenciar um outro documento. EX: serviço de transporte, devolução de mercadoria,etc...\nNesse campo você deve inserir a chave de acesso à NF que quer referenciar na transação.\nVocê consegue essa chave de acesso na propria NF-e.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Depois de referenciar todas as NF-es desejadas vá dando ENTER com o teclado até os campos sobre a carga."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1565185887488",
+      "conditions": "#campos && @campos:chavenfe",
+      "dialog_node": "node_1_1565357534489",
+      "previous_sibling": "node_6_1565361624536"
+    },
+    {
+      "type": "standard",
+      "title": "Transação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Este campo deve ser preenchido com o tipo de operação que ira ocorrer no documento.\nAlguns Exemplos: Venda para fora do estado, Serviço de Transporte, Devolução de compra"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "use tecla F3 para buscar a transação ideal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1565185887488",
+      "conditions": "#campos && @campos:transacao",
+      "dialog_node": "node_1_1565382393144"
     },
     {
       "type": "standard",
@@ -4606,13 +5178,13 @@
           {
             "values": [
               {
-                "text": "Estou aqui pra isso"
+                "text": "Estou aqui pra isso, como eu posso ser util?"
               },
               {
                 "text": "opa, como posso te ajudar?"
               },
               {
-                "text": "Ah sim, essa é minha função"
+                "text": "Ah sim, essa é minha função, me diga o que fazer."
               }
             ],
             "response_type": "text",
@@ -4909,13 +5481,13 @@
     },
     {
       "type": "standard",
-      "title": "Não entendeu",
+      "title": "Buscar",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Ih não buguei nessa ultima parte, vamos voltar....lembre-se sou um robô."
+                "text": "Alguns campos são sublinhados, esses campos possuem alguns atalhos para dinamizar o trabalho com o sistema, para preencher esses campos pressione F3 "
               }
             ],
             "response_type": "text",
@@ -4924,35 +5496,8 @@
         ]
       },
       "parent": "node_15_1564668980581",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_11_1564666029183"
-      },
-      "conditions": "anything_else",
-      "dialog_node": "node_1_1565017390822",
-      "previous_sibling": "node_1_1564755344459"
-    },
-    {
-      "type": "standard",
-      "title": "Pedir para ir passando",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ok, então por favor vá preenchendo os campos, e me perguntando sobre os campos que não souber.\n"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_15_1564668980581",
-      "metadata": {},
-      "conditions": "#positivo || #confirmar",
-      "dialog_node": "node_1_1564755344459"
+      "conditions": "#confirmar ||   #concluido || #positivo",
+      "dialog_node": "node_5_1565382666226"
     },
     {
       "type": "event_handler",
@@ -5038,26 +5583,6 @@
       "metadata": {},
       "conditions": "#ja_fiz_isso || #positivo",
       "dialog_node": "node_5_1561470948090"
-    },
-    {
-      "type": "standard",
-      "title": "EMITIR",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Emitir oque?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_2_1565024598884",
-      "conditions": "#como_hadron && @VERBOS:emitir",
-      "dialog_node": "node_9_1565024618834"
     },
     {
       "type": "standard",
@@ -5387,6 +5912,31 @@
     },
     {
       "type": "standard",
+      "title": "Ajudar com a 2131",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1563973485276",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11_1564666029183"
+      },
+      "conditions": "#confirmar || #positivo",
+      "dialog_node": "node_4_1565356355613"
+    },
+    {
+      "type": "standard",
       "title": "Meu Computador",
       "output": {
         "generic": [
@@ -5443,13 +5993,16 @@
     },
     {
       "type": "standard",
-      "title": "Termino",
+      "title": "Não entendeu",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Ok, boa sorte. Se precisar me chame."
+                "text": "Ih, não entendi, vamos voltar."
+              },
+              {
+                "text": "Desculpe, eu me perdi nessa ultima parte, vamos voltar?"
               }
             ],
             "response_type": "text",
@@ -5458,10 +6011,14 @@
         ]
       },
       "parent": "node_1_1564659278013",
-      "metadata": {},
-      "conditions": "#negativo",
-      "dialog_node": "node_12_1564666051119",
-      "previous_sibling": "node_11_1564666029183"
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1564659278013"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1565017022894",
+      "previous_sibling": "node_1_1565637570566"
     },
     {
       "type": "event_handler",
@@ -5493,69 +6050,25 @@
     },
     {
       "type": "standard",
-      "title": "Não entendeu",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ih, não entendi, vamos voltar."
-              },
-              {
-                "text": "Desculpe, eu me perdi nessa ultima parte, vamos voltar?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
       "parent": "node_1_1564659278013",
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_1_1564659278013"
+        "dialog_node": "node_11_1564666029183"
       },
-      "conditions": "anything_else",
-      "dialog_node": "node_3_1565017022894",
+      "conditions": "#positivo ||  #concluido || #confirmar",
+      "dialog_node": "node_1_1565637570566",
       "previous_sibling": "node_12_1564666051119"
     },
     {
       "type": "standard",
-      "title": "Incluir",
+      "title": "Termino",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Já na opção 7131, clique no ícone incluir "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "source": "https://raw.githubusercontent.com/Procion-Sistemas/WATSON/master/imags/incluir.png",
-            "response_type": "image"
-          },
-          {
-            "values": [
-              {
-                "text": "Assim será  criado um novo número de controle."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 10,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "use a tecla ENTER para mover entre os campos da opção, mova para o próximo, campo"
+                "text": "Ok, boa sorte. Se precisar me chame."
               }
             ],
             "response_type": "text",
@@ -5565,8 +6078,8 @@
       },
       "parent": "node_1_1564659278013",
       "metadata": {},
-      "conditions": "#positivo || #confirmar",
-      "dialog_node": "node_11_1564666029183"
+      "conditions": "#negativo",
+      "dialog_node": "node_12_1564666051119"
     },
     {
       "type": "standard",
@@ -5780,9 +6293,30 @@
       "previous_sibling": "node_2_1563900470003"
     },
     {
-      "type": "folder",
-      "title": "PERGUNTAS ABERTAS",
-      "dialog_node": "node_2_1565024598884",
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bem vindo ao AI da Prócion Sistemas, por favor pode falar comigo."
+              },
+              {
+                "text": "AI Prócion Sistemas, em que posso ajudar?"
+              },
+              {
+                "text": "Inteligencia Artificial falando, em que posso ser útil?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo",
       "previous_sibling": "node_8_1565185808970"
     },
     {
@@ -5798,13 +6332,13 @@
           {
             "values": [
               {
-                "text": "Podemos voltar do inicio? para melhor compreensão."
+                "text": "Podemos voltar do inicio? me pergunte de outra forma para ver se eu entendo."
               },
               {
-                "text": "Melhor voltarmos um pouco nossa conversa... Me perdi aqui."
+                "text": "Melhor voltarmos um pouco nossa conversa... Me perdi aqui.\n"
               },
               {
-                "text": "Depois vou perguntar pro meu chefe como melhorar nisso...Mas por enquanto vamos voltar do inicio, ok?"
+                "text": "Depois vou perguntar pro meu chefe como melhorar nisso...Mas por enquanto vamos voltar do inicio, ok?\n"
               }
             ],
             "response_type": "text",
@@ -5830,33 +6364,6 @@
       "metadata": {},
       "dialog_node": "node_1_1563901479501",
       "previous_sibling": "node_3_1563901224305"
-    },
-    {
-      "type": "standard",
-      "title": "Bem-vindo",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Bem vindo ao AI da Prócion Sistemas, por favor pode falar comigo."
-              },
-              {
-                "text": "AI Prócion Sistemas, em que posso ajudar?"
-              },
-              {
-                "text": "Inteligencia Artificial falando, em que posso ser útil?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "welcome",
-      "dialog_node": "Bem-vindo",
-      "previous_sibling": "node_2_1565024598884"
     },
     {
       "type": "folder",
@@ -5911,10 +6418,16 @@
       "text": "pedido"
     },
     {
+      "text": "quero emitir uma NF"
+    },
+    {
       "text": "remetente"
     },
     {
       "text": "token"
+    },
+    {
+      "text": "vc precisa retirar esse Agropecuária do texto"
     },
     {
       "text": "vc tem 2 opções"
