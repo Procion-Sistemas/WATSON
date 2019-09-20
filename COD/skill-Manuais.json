@@ -1,0 +1,632 @@
+{
+  "name": "Manuais",
+  "intents": [
+    {
+      "intent": "duvidas",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "emissor",
+      "examples": [],
+      "description": "2131,7331"
+    },
+    {
+      "intent": "erros",
+      "examples": [],
+      "description": "Solicitação para resolução de um erro"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "MODULOS",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "financeiro",
+          "synonyms": [
+            "financeiro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "materiais_estoque",
+          "synonyms": [
+            "materiais",
+            "estoque"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "transportes",
+          "synonyms": [
+            "transportes",
+            "transporte"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "frente",
+          "synonyms": [
+            "caixa",
+            "frente de loja",
+            "frente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "compras",
+          "synonyms": [
+            "compra",
+            "compras"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "faturamento",
+          "synonyms": [
+            "faturamento"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "opcoes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "opcoes",
+          "synonyms": [
+            "opcoes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2131",
+          "synonyms": [
+            "2131",
+            "cadastro pedidos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1243",
+          "synonyms": [
+            "1242",
+            "complementos gerais"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7331",
+          "synonyms": [
+            "7331",
+            "cadastro conhecimentos",
+            "NCM/NBS"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "emissor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "emitir",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "negativo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "negativo",
+          "synonyms": [
+            "nao",
+            "negativo",
+            "errado"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "outros",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fiscal",
+          "synonyms": [
+            "fical"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "externo",
+          "synonyms": [
+            "externo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CAT-52",
+          "synonyms": [
+            "cat52"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "duvida",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "duvida",
+          "synonyms": [
+            "duvida"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "positivo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "positivo",
+          "synonyms": [
+            "sim",
+            "positivo",
+            "certo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "processo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "processo",
+          "synonyms": [
+            "processo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "erros",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "erros",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "18902a93-ed52-4791-a47b-d33d63cd1bad",
+  "description": "Como utilizar o sistema hadron",
+  "dialog_nodes": [
+    {
+      "type": "folder",
+      "title": "EXTERNO AO HADRON",
+      "parent": "node_2_1568988544527",
+      "dialog_node": "node_7_1568988583869"
+    },
+    {
+      "type": "standard",
+      "title": "PDF's DE TRANSPORTES",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Segue abaixo alguns documentos para download que podem te ajudar a usar o modulo Compras."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<ul>\n\t<li><a href=\"https://github.com/Procion-Sistemas/WATSON/raw/master/Manuais/Compras/1_Cotacao_Ordem_Compra_New.pdf\">Cotação/Ordem de compra</a></li>\n\t<li><a href=\"https://github.com/Procion-Sistemas/WATSON/raw/master/Manuais/Compras/2_Importa%C3%A7%C3%A3o_XML_3218.pdf\">Importação Xml</a></li>\n\t<li><a href=\"https://github.com/Procion-Sistemas/WATSON/raw/master/Manuais/Compras/3_Entrada_Documentos_3212.pdf\">Entrada de documentos</a></li>\n</ul>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1568810801396",
+      "conditions": "@MODULOS:compras",
+      "dialog_node": "node_8_1568810812990"
+    },
+    {
+      "type": "standard",
+      "title": "QUAL PROCESSO",
+      "output": {
+        "generic": [
+          {
+            "title": "Selecione abaixo de acordo com o que deseja:",
+            "options": [
+              {
+                "label": "Faturamento",
+                "value": {
+                  "input": {
+                    "text": "faturamento"
+                  }
+                }
+              },
+              {
+                "label": "Compras",
+                "value": {
+                  "input": {
+                    "text": "compras"
+                  }
+                }
+              },
+              {
+                "label": "Financeiro",
+                "value": {
+                  "input": {
+                    "text": "financeiro"
+                  }
+                }
+              },
+              {
+                "label": "Materiais/Movimentos",
+                "value": {
+                  "input": {
+                    "text": "materiais"
+                  }
+                }
+              },
+              {
+                "label": "Caixa/Deposito/Expedição",
+                "value": {
+                  "input": {
+                    "text": "frente"
+                  }
+                }
+              },
+              {
+                "label": "Transporte",
+                "value": {
+                  "input": {
+                    "text": "transporte"
+                  }
+                }
+              },
+              {
+                "label": "Assunto Fiscal",
+                "value": {
+                  "input": {
+                    "text": "fiscal"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1568728506422",
+      "conditions": "@processo",
+      "dialog_node": "node_6_1568741694330",
+      "previous_sibling": "node_7_1568741513849"
+    },
+    {
+      "type": "standard",
+      "title": "QUAL A OPCAO",
+      "output": {
+        "text": {
+          "values": [
+            "Em qual opção você está com duvida? digite o numero ou o nome exato da opção"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1568728506422",
+      "conditions": "@opcoes",
+      "dialog_node": "node_7_1568741513849"
+    },
+    {
+      "type": "standard",
+      "title": "SEM MENSAGEM",
+      "parent": "node_7_1568742473827",
+      "dialog_node": "node_3_1568742996538",
+      "previous_sibling": "node_4_1568742917552"
+    },
+    {
+      "type": "standard",
+      "title": "COM MENSAGEM",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor,  escreva abaixo a mensagem de erro exatamente como aparece"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1568742473827",
+      "conditions": "@positivo",
+      "dialog_node": "node_4_1568742917552"
+    },
+    {
+      "type": "folder",
+      "title": "COMPRAS",
+      "parent": "node_10_1568743902230",
+      "dialog_node": "node_2_1568810801396",
+      "previous_sibling": "node_2_1568813647216"
+    },
+    {
+      "type": "folder",
+      "title": "TRANSPORTES",
+      "parent": "node_10_1568743902230",
+      "dialog_node": "node_2_1568813647216"
+    },
+    {
+      "type": "standard",
+      "title": "QUAL A AREA DA DUVIDA",
+      "output": {
+        "generic": [
+          {
+            "title": "Selecione de acordo com sua dúvida",
+            "options": [
+              {
+                "label": "Sobre uma opção do Hádron",
+                "value": {
+                  "input": {
+                    "text": "opcoes"
+                  }
+                }
+              },
+              {
+                "label": "Sobre um processo no Hádron",
+                "value": {
+                  "input": {
+                    "text": "processo"
+                  }
+                }
+              },
+              {
+                "label": "Externo ao Hadron",
+                "value": {
+                  "input": {
+                    "text": "externo"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1568728456757",
+      "conditions": "@duvida",
+      "dialog_node": "node_8_1568728506422"
+    },
+    {
+      "type": "standard",
+      "title": "PDF's DE TRANSPORTES",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Segue abaixo alguns documentos para download que podem te ajudar a usar o módulo Transportes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<ul>\n\t<li><a href=\"https://github.com/Procion-Sistemas/WATSON/raw/master/Manuais/Transporte/MDF-e_New.pdf\">Manifesto Eletronico</a></li>\n\t<li><a href=\"https://github.com/Procion-Sistemas/WATSON/raw/master/Manuais/Transporte/Manual_Transportes.pdf\">Modulo Geral</a></li>\n</ul>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1568813647216",
+      "conditions": "@MODULOS:transportes",
+      "dialog_node": "node_4_1568813666482"
+    },
+    {
+      "type": "standard",
+      "title": "CAT - 52",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Segue abaixo um PDF, que pode te ajudar com o cat 52"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1568988583869",
+      "conditions": "@outros:CAT-52",
+      "dialog_node": "node_2_1568988619590"
+    },
+    {
+      "type": "standard",
+      "title": "Mensagem?",
+      "output": {
+        "generic": [
+          {
+            "title": "Esse erro mostra alguma mensagem?",
+            "options": [
+              {
+                "label": "sim",
+                "value": {
+                  "input": {
+                    "text": "positivo"
+                  }
+                }
+              },
+              {
+                "label": "não",
+                "value": {
+                  "input": {
+                    "text": "negativo"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1568742412434",
+      "conditions": "@erros",
+      "dialog_node": "node_7_1568742473827"
+    },
+    {
+      "type": "folder",
+      "title": "MODULOS",
+      "dialog_node": "node_10_1568743902230",
+      "previous_sibling": "node_2_1568988544527"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "text": {
+          "values": [
+            "Você deve <u>clicar</u> em uma das opções.<br>Você também pode nos ligar no número (19) 3342-6730.",
+            "",
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "folder",
+      "title": "DUVIDAS",
+      "dialog_node": "node_1_1568728456757",
+      "previous_sibling": "node_10_1568743902230"
+    },
+    {
+      "type": "folder",
+      "title": "ERROS",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1568742412434",
+      "previous_sibling": "node_1_1568728456757"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              },
+              {
+                "text": "Oi tudo bom? como posso ser util?"
+              },
+              {
+                "text": "Oie, como vai ? como posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ajuda para emitir.",
+                "value": {
+                  "input": {
+                    "text": "emitir"
+                  }
+                }
+              },
+              {
+                "label": "Tenho uma dúvida.",
+                "value": {
+                  "input": {
+                    "text": "duvida"
+                  }
+                }
+              },
+              {
+                "label": "Tenho uma mensagem de erro.",
+                "value": {
+                  "input": {
+                    "text": "erros"
+                  }
+                }
+              },
+              {
+                "label": "Desejo falar com um atendente,",
+                "value": {
+                  "input": {
+                    "text": "pessoa"
+                  }
+                }
+              }
+            ],
+            "description": "<strong>Clique </strong> em uma das opções abaixo de acordo com o que deseja",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo",
+      "previous_sibling": "node_5_1568742412434"
+    },
+    {
+      "type": "folder",
+      "title": "OUTROS",
+      "dialog_node": "node_2_1568988544527"
+    }
+  ],
+  "workspace_id": "18902a93-ed52-4791-a47b-d33d63cd1bad",
+  "counterexamples": [],
+  "system_settings": {},
+  "learning_opt_out": false,
+  "status": "Available"
+}
